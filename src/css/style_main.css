@@ -78,7 +78,7 @@
 }
 /*Desktop CSS*/
 .header-desktop{
-	background-color: #000000eb;
+	background-color: #000;
 	height: 108px;
 }
 .afs-sticker-logo{
@@ -93,11 +93,11 @@
     color: #fff;
 }
 .logo-section {
-    padding: 20px 0px;
+    padding-top: 20px;
 }
 .contact-cta {
     background-color: #e50028;
-    border-radius: 4px;
+    border-radius: 2px;
     color: white !important;
     transition: 0.5s;
     background-size: 200% auto;
@@ -121,26 +121,97 @@
 @media only screen and (max-width: 480px) {
 	.header-mobile{
 		height: 75px;
-		background-color: #000000eb;
-	}
-	.contact-cta{
-		text-align: center;
-		width: 150px;
-		height: 36px;
-		padding-top: 6px !important;
-		font-family: proximaNovaSemiBold;
+		background-color: #000;
 	}
 	.container {
-		padding-left: 20px !important;
+		/*padding-left: 20px !important;
 		padding-right: 20px !important;
+*/	}
+	.section1 {
+		min-height: 300px !important;
 	}
+	.section-3 button.slick-prev {
+		display: none !important;
+	}
+	.section-3 button.slick-next {
+		display: none !important;
+	}
+	#mini-refs{
+		justify-content: flex-start !important;
+		overflow: scroll;
+	}
+	.section-2 .container {
+    	padding-left: 15px !important;
+    	padding-right: 15px !important;
+	}
+	.section1 .line1 {
+	    padding-top: 60px !important;
+	    font-size: 18px !important;
+	    color: #FFFFFF;
+	    font-family: ProximaNovaLight;
+	    margin: 0px 40px !important;
+	    line-height: 18px !important;
+	}
+	.section1 .line2 {
+	    font-size: 36px !important;
+	    padding-bottom: 30px !important;
+	    margin: 5px 40px !important;
+	}
+	.section1 #learn_more_btn {
+		display: none !important;
+	}
+	.section1-main {
+	    position: relative;
+	    bottom: 0px !important;
+	    margin-left: -15px !important;
+	    margin-right: -15px !important;
+	}
+	.section1-main .col-sm-4 {
+	    padding: 0 !important;
+	    height: 125px !important;
+	    background-color: #F21F35;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+	    cursor: pointer;
+	    color: #FFFFFF;
+	}
+	.section1-main .col-sm-4 .icon img{
+		width: 25px !important;
+	}
+	.section1-main .col-sm-4 .heading {
+    	font-size: 14px !important;
+	}
+	.section1-main .col-sm-4 .contact{
+		font-size: 12px !important;
+	}
+	.section1 .line2 .verticleLine {
+	    height: 25px !important;
+	    border-left: 2px solid #D93447 !important;
+	    margin-right: 5px !important;
+	    display: inline-block;
+	}
+	.contact-cta {
+	    text-align: center;
+	    width: 135px;
+	    height: 38px;
+	    padding-top: 6px !important;
+	    font-family: proximaNovaSemiBold;
+	}
+	
+	#contact-section {
+		margin-left: -15px !important;
+	    margin-right: -15px !important;
+	}
+
 }
 /*End Mobile CSS*/
 
 /* Section-1 */
 
 .section1{
-    background: #000000eb;
+    background: #000;
     min-height: 600px;
     border-top: 1px solid #333;
 }
@@ -160,7 +231,7 @@
 
 .section1 .line2 .verticleLine{
     height: 44px;
-    border-left: 1px solid #D93447;
+    border-left: 2px solid #D93447;
     margin-right: 20px;
     display: inline-block;
 }
@@ -172,7 +243,9 @@
 }
 .section1-main{
     position: relative;
-    bottom: -15px;
+    bottom: -20px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
 }
 .section1-main .col-sm-4{
   padding: 0;
@@ -215,10 +288,10 @@
     padding: 100px 0 50px;
 }
 
-.section-2 .container {
+/*.section-2 .container {
     padding: 0
 }
-
+*/
 .section-2 .heading{
     font-size: 36px;
     font-family: ProximaNovaSemiboldItalic;
@@ -229,7 +302,8 @@
     font-family: ProximaNovaRegular;
 }
 .section-2 .learn-more{
-    margin-top: 90px;
+    position: absolute;
+    bottom: 0px;
 }
 
  /*Section-2*/
@@ -285,9 +359,9 @@
     margin: 0 !important;
 }
 
-.section-3 button.slick-arrow img{
+/*.section-3 button.slick-arrow img{
     display: none;
-}
+}*/
 
 .section-3 button.slick-arrow{
     width: 40px;
@@ -296,7 +370,7 @@
     background-repeat: no-repeat;
     position: absolute;
 }
-.section-3 button.slick-prev{
+/*.section-3 button.slick-prev{
     background-image: url('../image_folder/Desktop/Left_arrow.svg');
     left : -100px;
 
@@ -304,4 +378,4 @@
 .section-3 button.slick-next{
     background-image: url('../image_folder/Desktop/Right_arrow.svg');
     right : -100px;
-}
+}*/
