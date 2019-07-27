@@ -115,98 +115,6 @@
     top: 0;    z-index: 9999;
     box-shadow: 0 3px 16px 0 rgba(0,0,0,.11);
 }
-/*End Desktop CSS*/
-
-/*Mobile css*/
-@media only screen and (max-width: 480px) {
-	.header-mobile{
-		height: 75px;
-		background-color: #000;
-	}
-	.container {
-		/*padding-left: 20px !important;
-		padding-right: 20px !important;
-*/	}
-	.section1 {
-		min-height: 300px !important;
-	}
-	.section-3 button.slick-prev {
-		display: none !important;
-	}
-	.section-3 button.slick-next {
-		display: none !important;
-	}
-	#mini-refs{
-		justify-content: flex-start !important;
-		overflow: scroll;
-	}
-	.section-2 .container {
-    	padding-left: 15px !important;
-    	padding-right: 15px !important;
-	}
-	.section1 .line1 {
-	    padding-top: 60px !important;
-	    font-size: 18px !important;
-	    color: #FFFFFF;
-	    font-family: ProximaNovaLight;
-	    margin: 0px 40px !important;
-	    line-height: 18px !important;
-	}
-	.section1 .line2 {
-	    font-size: 36px !important;
-	    padding-bottom: 30px !important;
-	    margin: 5px 40px !important;
-	}
-	.section1 #learn_more_btn {
-		display: none !important;
-	}
-	.section1-main {
-	    position: relative;
-	    bottom: 0px !important;
-	    margin-left: -15px !important;
-	    margin-right: -15px !important;
-	}
-	.section1-main .col-sm-4 {
-	    padding: 0 !important;
-	    height: 125px !important;
-	    background-color: #F21F35;
-	    display: flex;
-	    flex-direction: column;
-	    justify-content: center;
-	    align-items: center;
-	    cursor: pointer;
-	    color: #FFFFFF;
-	}
-	.section1-main .col-sm-4 .icon img{
-		width: 25px !important;
-	}
-	.section1-main .col-sm-4 .heading {
-    	font-size: 14px !important;
-	}
-	.section1-main .col-sm-4 .contact{
-		font-size: 12px !important;
-	}
-	.section1 .line2 .verticleLine {
-	    height: 25px !important;
-	    border-left: 2px solid #D93447 !important;
-	    margin-right: 5px !important;
-	    display: inline-block;
-	}
-	.contact-cta {
-	    text-align: center;
-	    width: 135px;
-	    height: 38px;
-	    padding-top: 6px !important;
-	    font-family: proximaNovaSemiBold;
-	}
-	
-	#contact-section {
-		margin-left: -15px !important;
-	    margin-right: -15px !important;
-	}
-
-}
-/*End Mobile CSS*/
 
 /* Section-1 */
 
@@ -230,9 +138,10 @@
 }
 
 .section1 .line2 .verticleLine{
-    height: 44px;
+    height: 48px;
+    padding-left: 25px;
+    line-height: 75px;
     border-left: 2px solid #D93447;
-    margin-right: 20px;
     display: inline-block;
 }
 .section1 #learn_more_btn{
@@ -240,6 +149,7 @@
     font-size: 16px;
     margin: 50px 0 80px;
     cursor: pointer;
+    opacity: 0.6;
 }
 .section1-main{
     position: relative;
@@ -359,10 +269,6 @@
     margin: 0 !important;
 }
 
-/*.section-3 button.slick-arrow img{
-    display: none;
-}*/
-
 .section-3 button.slick-arrow{
     width: 40px;
     height: 100px;
@@ -370,12 +276,184 @@
     background-repeat: no-repeat;
     position: absolute;
 }
-/*.section-3 button.slick-prev{
-    background-image: url('../image_folder/Desktop/Left_arrow.svg');
-    left : -100px;
+
+
+ /*Section-4*/
+
+.section-4 .heading{
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-family: ProximaNovaSemiboldItalic;
+}
+
+.section-4 #testimonialSlider{
+    background: #F7F7F7;
+    padding: 0 100px;
+}
+
+.section-4 #testimonialSlider .item img{
+    border-radius: 50%;
+}
+
+.section-4 #testimonialSlider .item .description{
+    padding: 20px 0;
+    font-size: 16px;
+    font-family: ProximaNovaRegular;
+}
+
+.section-4 #testimonialSlider .item .title{
+    font-size: 24px;
+    font-family: proximaNovaSemiBold;
+}
+
+.section-4 #testimonialSlider .img{
+    display: flex;
+    justify-content: center;
+}
+
+.section-4 #testimonialSlider .slick-dots{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -50px;
+    width: 100%;
+}
+/*End Desktop CSS*/
+
+/*Mobile css*/
+@media only screen and (max-width: 480px) {
+    .header-mobile{
+        height: 75px;
+        background-color: #000;
+    }
+    .container {
+        /*padding-left: 20px !important;
+        padding-right: 20px !important;
+*/	}
+    .section1 {
+        min-height: 300px !important;
+    }
+    .section-3 button.slick-prev {
+        display: none !important;
+    }
+    .section-3 button.slick-next {
+        display: none !important;
+    }
+    #mini-refs{
+        justify-content: flex-start !important;
+        overflow: scroll;
+    }
+    .section-2 .container {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .section1 .line1 {
+        padding-top: 60px !important;
+        padding-bottom: 10px !important;
+        font-size: 18px !important;
+        color: #FFFFFF;
+        font-family: ProximaNovaLight;
+        margin: 0px 40px !important;
+        line-height: 18px !important;
+    }
+    .section1 .line2 {
+        font-size: 36px !important;
+        padding-bottom: 30px !important;
+        margin: 5px 40px !important;
+    }
+    .section1 #learn_more_btn {
+        display: none !important;
+    }
+    .section1-main {
+        position: relative;
+        bottom: 0px !important;
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+    }
+    .section1-main .col-sm-4 {
+        padding: 0 !important;
+        height: 125px !important;
+        background-color: #F21F35;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        color: #FFFFFF;
+    }
+    .section1-main .col-sm-4 .icon img{
+        width: 25px !important;
+    }
+    .section1-main .col-sm-4 .heading {
+        font-size: 14px !important;
+    }
+    .section1-main .col-sm-4 .contact{
+        font-size: 12px !important;
+    }
+    .section1 .line2 .verticleLine {
+        line-height: 40px;
+        height: 65px !important;
+        padding-left: 12px;
+        border-left: 2px solid #D93447 !important;
+        margin-right: 5px !important;
+        display: inline-block;
+    }
+    .contact-cta {
+        text-align: center;
+        width: 135px;
+        height: 38px;
+        padding-top: 10px !important;
+        font-family: proximaNovaSemiBold;
+    }
+
+    #contact-section {
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+    }
+    .header-mobile ul li{
+        list-style-type: none;
+    }
+    .navbar-nav {
+        padding-left: 26px !important;
+    }
+    #collapsibleNavbar ul li a{
+        font-size: 14px;
+        font-family: proximaNovaSemiBold;
+        color: #fff;
+    }
+    #collapsibleNavbar {
+        border: 1px solid #333;
+    }
+    .navbar-toggler{
+        outline: none !important;
+    }
+    .flex-direction{
+        flex-direction: column-reverse;
+    }
+    .about-us-right{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .section-2 .learn-more {
+        bottom: initial !important;
+        padding-top: 30px;
+        position: relative;
+    }
+    .about-us-left {
+        padding: 35px 45px !important;
+    }
+    .section-2{
+      padding-bottom: 0px !important;
+    }
+    .afs-button {
+      border: 1px solid #000;
+      background-color: #F7F7F7;
+      color: black;
+      font-size: 16px;
+      padding: 10px 20px;
+      font-family: ProximaNovaSemibold;
+      border-radius: 2px;
+    }
 
 }
-.section-3 button.slick-next{
-    background-image: url('../image_folder/Desktop/Right_arrow.svg');
-    right : -100px;
-}*/
+/*End Mobile CSS*/

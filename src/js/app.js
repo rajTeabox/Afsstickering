@@ -12,6 +12,11 @@ $(document).ready(function () {
         $(".slick-dots li").eq(index).trigger('click');
         $("#mini-refs img").removeClass("active")
         $(this).children(0).addClass("active")
+    });
+
+    $('#testimonialSlider').slick({
+        dots : true,
+        arrows : false
     })
 
 });
