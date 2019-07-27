@@ -223,7 +223,7 @@
 }
  /*Section-3*/
 .section-3{
-    padding: 50px 0 80px;
+    padding: 80px 0 60px;
     position: relative;
 }
 
@@ -231,9 +231,12 @@
     font-size: 36px;
     font-family: ProximaNovaSemiboldItalic;
 }
+.section-5 .heading{
+    font-size: 36px;
+    font-family: ProximaNovaSemiboldItalic;
+}
 
 .section-3 #mini-refs{
-    margin: 50px 0;
     display: flex;
     justify-content: center;
 }
@@ -281,7 +284,7 @@
  /*Section-4*/
 
 .section-4 .heading{
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-size: 36px;
     font-family: ProximaNovaSemiboldItalic;
 }
@@ -303,6 +306,7 @@
 
 .section-4 #testimonialSlider .item .title{
     font-size: 24px;
+    padding-top: 20px;
     font-family: proximaNovaSemiBold;
 }
 
@@ -318,7 +322,23 @@
     bottom: -50px;
     width: 100%;
 }
+
+/*Section 5*/
+.section-5{
+    margin-top: 120px;
+}
+.feature-work-banners{
+    padding-top: 30px;
+}
+.feature-work-banners .slick-slide {
+    margin: -18px 20px;
+}
+.section-5 .slick-dots {
+    width: 100% !important;
+}
+/*End Section 5*/
 /*End Desktop CSS*/
+
 
 /*Mobile css*/
 @media only screen and (max-width: 480px) {
@@ -440,10 +460,12 @@
         position: relative;
     }
     .about-us-left {
-        padding: 35px 45px !important;
+        padding: 35px 60px !important;
     }
     .section-2{
       padding-bottom: 0px !important;
+      padding-top: 30px;
+      margin-top: 10px;
     }
     .afs-button {
       border: 1px solid #000;
@@ -453,6 +475,20 @@
       padding: 10px 20px;
       font-family: ProximaNovaSemibold;
       border-radius: 2px;
+    }
+    .mobile-about-heading {
+      padding-bottom: 30px;
+      padding-left: 60px;
+    }
+    .mobile-about-heading span {
+        line-height: 32px;
+        font-size: 20px;
+        height: 22px !important;
+        padding-left: 12px;
+        border-left: 2px solid #D93447 !important;
+        margin-right: 5px !important;
+        display: inline-block;
+        font-family: proximaNovaBold;
     }
 
 }
