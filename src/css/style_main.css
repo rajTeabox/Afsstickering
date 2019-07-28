@@ -72,9 +72,18 @@
     color: #FFFFFF;
     background: #E50028;
     font-size: 16px;
-    padding: 15px 30px;
+    padding: 12px 22px;
     font-family: ProximaNovaSemibold;
-    border-radius: 4px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    width: 154px;
+    height: 52px;
+    padding-top: 18px;
+    cursor: pointer;
+}
+.mt-5 .afs-button {
+	border: 1px solid white;
 }
 /*Desktop CSS*/
 .header-desktop{
@@ -172,14 +181,19 @@
 .section1-main .col-sm-4 .heading{
     font-size : 18px;
     font-family: ProximaNovaBold;
+    text-align: center;
+    color: white;
 }
 .section1-main .col-sm-4 .contact{
     font-size : 14px;
     font-family: ProximaNovaRegular;
     opacity: 0.5;
+    text-align: center;	
+    color: white;
 }
 .section1-main .col-sm-4 .icon{
     padding: 10px;
+    text-align: center;
 }
 .section1-main .col-sm-4.call_us{
     border-left: 1px solid #eee;
@@ -188,6 +202,14 @@
 
 .section1-main .col-sm-4:hover{
     background-color: #E5293D;
+}
+
+.email_us a:hover {
+	text-decoration: none;
+}
+
+.call_us a:hover {
+	text-decoration: none;
 }
 
 /* Section-1 */
@@ -337,159 +359,109 @@
     width: 100% !important;
 }
 /*End Section 5*/
-/*End Desktop CSS*/
 
-
-/*Mobile css*/
-@media only screen and (max-width: 480px) {
-    .header-mobile{
-        height: 75px;
-        background-color: #000;
-    }
-    .container {
-        /*padding-left: 20px !important;
-        padding-right: 20px !important;
-*/	}
-    .section1 {
-        min-height: 300px !important;
-    }
-    .section-3 button.slick-prev {
-        display: none !important;
-    }
-    .section-3 button.slick-next {
-        display: none !important;
-    }
-    #mini-refs{
-        justify-content: flex-start !important;
-        overflow: scroll;
-    }
-    .section-2 .container {
-        padding-left: 15px !important;
-        padding-right: 15px !important;
-    }
-    .section1 .line1 {
-        padding-top: 60px !important;
-        padding-bottom: 10px !important;
-        font-size: 18px !important;
-        color: #FFFFFF;
-        font-family: ProximaNovaLight;
-        margin: 0px 40px !important;
-        line-height: 18px !important;
-    }
-    .section1 .line2 {
-        font-size: 36px !important;
-        padding-bottom: 30px !important;
-        margin: 5px 40px !important;
-    }
-    .section1 #learn_more_btn {
-        display: none !important;
-    }
-    .section1-main {
-        position: relative;
-        bottom: 0px !important;
-        margin-left: -15px !important;
-        margin-right: -15px !important;
-    }
-    .section1-main .col-sm-4 {
-        padding: 0 !important;
-        height: 125px !important;
-        background-color: #F21F35;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
-        color: #FFFFFF;
-    }
-    .section1-main .col-sm-4 .icon img{
-        width: 25px !important;
-    }
-    .section1-main .col-sm-4 .heading {
-        font-size: 14px !important;
-    }
-    .section1-main .col-sm-4 .contact{
-        font-size: 12px !important;
-    }
-    .section1 .line2 .verticleLine {
-        line-height: 40px;
-        height: 65px !important;
-        padding-left: 12px;
-        border-left: 2px solid #D93447 !important;
-        margin-right: 5px !important;
-        display: inline-block;
-    }
-    .contact-cta {
-        text-align: center;
-        width: 135px;
-        height: 38px;
-        padding-top: 10px !important;
-        font-family: proximaNovaSemiBold;
-    }
-
-    #contact-section {
-        margin-left: -15px !important;
-        margin-right: -15px !important;
-    }
-    .header-mobile ul li{
-        list-style-type: none;
-    }
-    .navbar-nav {
-        padding-left: 26px !important;
-    }
-    #collapsibleNavbar ul li a{
-        font-size: 14px;
-        font-family: proximaNovaSemiBold;
-        color: #fff;
-    }
-    #collapsibleNavbar {
-        border: 1px solid #333;
-    }
-    .navbar-toggler{
-        outline: none !important;
-    }
-    .flex-direction{
-        flex-direction: column-reverse;
-    }
-    .about-us-right{
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-    }
-    .section-2 .learn-more {
-        bottom: initial !important;
-        padding-top: 30px;
-        position: relative;
-    }
-    .about-us-left {
-        padding: 35px 60px !important;
-    }
-    .section-2{
-      padding-bottom: 0px !important;
-      padding-top: 30px;
-      margin-top: 10px;
-    }
-    .afs-button {
-      border: 1px solid #000;
-      background-color: #F7F7F7;
-      color: black;
-      font-size: 16px;
-      padding: 10px 20px;
-      font-family: ProximaNovaSemibold;
-      border-radius: 2px;
-    }
-    .mobile-about-heading {
-      padding-bottom: 30px;
-      padding-left: 60px;
-    }
-    .mobile-about-heading span {
-        line-height: 32px;
-        font-size: 20px;
-        height: 22px !important;
-        padding-left: 12px;
-        border-left: 2px solid #D93447 !important;
-        margin-right: 5px !important;
-        display: inline-block;
-        font-family: proximaNovaBold;
-    }
-
+/*section-6*/
+.section-6{
+	margin-top: 50px;
+	margin-bottom: 30px;
+	text-align: center;
 }
-/*End Mobile CSS*/
+.section-6 .contact-cta {
+	width: 154px;
+	height: 52px;
+	padding-top: 10px;
+	font-family: proximaNovaSemiBold;
+}
+.section-6 .nav-link {
+	display: block !important;
+}
+/*End section-6*/
+
+/*section-7*/
+.section-7 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.section-7 .heading{
+	font-size: 36px;
+	font-family: ProximaNovaSemiboldItalic;
+	padding-bottom: 30px;
+}
+.accordion {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 18px 0px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    font-family: proximaNovaSemiBold;
+    transition: 0.4s;
+    padding-top: 25px;
+}
+.faq-detail{
+	border-bottom: 1px solid #CBCBCB;
+}
+
+.active, .accordion:hover {
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #ccc;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  font-size: 30px;
+}
+
+.faq-detail .active:after {
+  content: "\2212";
+}
+
+.panel {
+  font-family: proximaNovaRegular;
+  font-size: 16px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.faq-list{
+  padding: 0px 18%;
+  
+}
+.panel ul li {
+	list-style-type: disc;
+}
+.over-flow{
+  max-height: 300px;
+  overflow-y: scroll;
+  padding-right: 30px;
+}
+/*End section-7*/
+/*scroll bar css*/
+/* width */
+.over-flow::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+.over-flow::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.over-flow::-webkit-scrollbar-thumb {
+  background: #CBCBCB;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.over-flow::-webkit-scrollbar-thumb:hover {
+  background: #CBCBCB; 
+}
+/*End Desktop CSS*/
