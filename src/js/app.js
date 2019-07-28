@@ -12,8 +12,59 @@ $(document).ready(function () {
         $(".slick-dots li").eq(index).trigger('click');
         $("#mini-refs img").removeClass("active")
         $(this).children(0).addClass("active")
-    })
+    });
+
+    $('#testimonialSlider').slick({
+        dots : true,
+        arrows : false
+    });
+
+    $('#our-works').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        centerMode: true,
+        centerPadding: '100px',
+        focusOnSelect: true,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '0px',
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '0px',
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+
+    // FAQ
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight){
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+      });
+    }
 
 });
+
 
 

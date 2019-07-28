@@ -1,0 +1,156 @@
+/*Mobile css*/
+@media only screen and (max-width: 480px) {
+    .header-mobile{
+        height: 75px;
+        background-color: #000;
+    }
+    .container {
+        /*padding-left: 20px !important;
+        padding-right: 20px !important;
+*/	}
+    .section1 {
+        min-height: 300px !important;
+    }
+    .section-3 button.slick-prev {
+        display: none !important;
+    }
+    .section-3 button.slick-next {
+        display: none !important;
+    }
+    #mini-refs{
+        justify-content: flex-start !important;
+        overflow: scroll;
+    }
+    .section-2 .container {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .section1 .line1 {
+        padding-top: 60px !important;
+        padding-bottom: 10px !important;
+        font-size: 18px !important;
+        color: #FFFFFF;
+        font-family: ProximaNovaLight;
+        margin: 0px 40px !important;
+        line-height: 18px !important;
+    }
+    .section1 .line2 {
+        font-size: 36px !important;
+        padding-bottom: 30px !important;
+        margin: 5px 40px !important;
+    }
+    .section1 #learn_more_btn {
+        display: none !important;
+    }
+    .section1-main {
+        position: relative;
+        bottom: 0px !important;
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+    }
+    .section1-main .col-sm-4 {
+        padding: 0 !important;
+        height: 125px !important;
+        background-color: #F21F35;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        color: #FFFFFF;
+    }
+    .section1-main .col-sm-4 .icon img{
+        width: 25px !important;
+    }
+    .section1-main .col-sm-4 .heading {
+        font-size: 14px !important;
+    }
+    .section1-main .col-sm-4 .contact{
+        font-size: 12px !important;
+    }
+    .section1 .line2 .verticleLine {
+        line-height: 40px;
+        height: 65px !important;
+        padding-left: 12px;
+        border-left: 2px solid #D93447 !important;
+        margin-right: 5px !important;
+        display: inline-block;
+    }
+    .contact-cta {
+        text-align: center;
+        width: 135px;
+        height: 38px;
+        padding-top: 10px !important;
+        font-family: proximaNovaSemiBold;
+    }
+
+    #contact-section {
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+    }
+    .header-mobile ul li{
+        list-style-type: none;
+    }
+    .navbar-nav {
+        padding-left: 26px !important;
+    }
+    #collapsibleNavbar ul li a{
+        font-size: 14px;
+        font-family: proximaNovaSemiBold;
+        color: #fff;
+    }
+    #collapsibleNavbar {
+        border: 1px solid #333;
+    }
+    .navbar-toggler{
+        outline: none !important;
+    }
+    .flex-direction{
+        flex-direction: column-reverse;
+    }
+    .about-us-right{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .section-2 .learn-more {
+        bottom: initial !important;
+        padding-top: 30px;
+        position: relative;
+    }
+    .about-us-left {
+        padding: 35px 60px !important;
+    }
+    .section-2{
+      padding-bottom: 0px !important;
+      padding-top: 30px;
+      margin-top: 10px;
+    }
+    .afs-button {
+      border: 1px solid #000;
+      background-color: #F7F7F7;
+      color: black;
+      font-size: 16px;
+      padding: 10px 20px;
+      font-family: ProximaNovaSemibold;
+      border-radius: 2px;
+    }
+    .mobile-about-heading {
+      padding-bottom: 30px;
+      padding-left: 60px;
+    }
+    .mobile-about-heading span {
+        line-height: 32px;
+        font-size: 20px;
+        height: 22px !important;
+        padding-left: 12px;
+        border-left: 2px solid #D93447 !important;
+        margin-right: 5px !important;
+        display: inline-block;
+        font-family: proximaNovaBold;
+    }
+    .section-6{ 
+        display: none !important;
+    }
+
+}
+/*End Mobile CSS*/
