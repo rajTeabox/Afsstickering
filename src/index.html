@@ -18,7 +18,7 @@
 </head>
 <body>
   <div class="afs-home">
-    <div class="header-desktop d-none d-sm-block logo-header" style="">
+    <div class="header-desktop d-none d-sm-block logo-header tab-active-scroll" id="logo-header">
       <div class="container">
       	<div class="row">
       		<div class="col-sm-3 col-6">
@@ -32,16 +32,16 @@
 				<div class="d-none d-sm-block desk-nav">
 					<ul class="nav justify-content-end">
 					    <li class="nav-item">
-					      <a class="nav-link About-link active-item" style="" href="javascript:void(0)">HOME</a>
+					      <a class="nav-link home_link active-item" data-id="#logo-header" href="javascript:void(0)">HOME</a>
 					    </li>
 					    <li class="nav-item">
-					      <a class="nav-link feature_header header-hover" href="#index">ABOUT US</a>
+					      <a class="nav-link aboutus_header header-hover" data-id="#section-2" href="javascript:void(0)">ABOUT US</a>
 					    </li>
 					    <li class="nav-item">
-					      <a class="nav-link feature_header header-hover" href="#index">OUR SERVICES</a>
+					      <a class="nav-link feature_header header-hover" data-id="#section-3" href="javascript:void(0)">OUR SERVICES</a>
 					    </li>
 					    <li class="nav-item">
-					      <a class="nav-link service_header header-hover" href="#index">OUR WORKS</a>
+					      <a class="nav-link service_header header-hover" data-id="#section-5" href="javascript:void(0)">OUR WORKS</a>
 					    </li>
 					    <li class="nav-item">
 					      <a class="nav-link contact-cta Contact_Us" href="#lets-connect" style="color: white !important">CONTACT US</a>
@@ -94,7 +94,7 @@
     </div>
 
 	<!--Start Section-1-->
-	<div class="section1">
+	<div class="section1" id="section1">
 		<div class="container">
 			<div class="line1">All Kind of sticking services in click a away</div>
 			<div class="line2">
@@ -136,7 +136,7 @@
 	<!--End Section-1-->
 
 	<!--Start Section-2-->
-	<div class="section-2">
+	<div class="section-2 tab-active-scroll" id="section-2">
 		  <div class="container">
 			  <div class="row flex-direction">
 				  <div class="col-sm-7 col-12 about-us-left">
@@ -159,7 +159,7 @@
 	<!--End Section-2-->
 
 	<!--Start Section-3-->
-	<div class="section-3">
+	<div class="section-3 tab-active-scroll" id="section-3">
 		  <div class="container">
 			<div class="heading text-center">OUR SERVICES</div>
 			  <div id="mini-refs">
@@ -322,7 +322,7 @@
 
     <!--Start Section-4-->
 
-      <div class="section-4 text-center">
+      <div class="section-4 text-center tab-active-scroll" id="section-4">
         <div class="heading">CUSTOMER TESTIMONIALS</div>
         <div id="testimonialSlider">
             <div class="container item p-5">
@@ -348,7 +348,7 @@
     <!--End Section-4-->
 
     <!--Start Section-5-->
-      <div class="container section-5" id="our-works-tab">
+      <div class="container section-5 tab-active-scroll" id="section-5">
         <div class="heading text-center">
             OUR WORKS
         </div>
