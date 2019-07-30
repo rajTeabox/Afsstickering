@@ -64,6 +64,50 @@ $(document).ready(function () {
       });
     }
 
+    // navingate to respective section
+    $(".home_link").click(function(){
+        $('html, body').animate({
+           scrollTop: $("#section1").offset().top -110
+         }, 500);
+    });
+
+    $(".aboutus_header").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#section-2").offset().top - 60
+     }, 500);
+    });
+
+    $(".feature_header").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#section-3").offset().top - 60
+     }, 500);
+    });
+
+    $(".service_header").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#section-5").offset().top - 50
+     }, 500);
+    });
+
+    var sections = $('.tab-active-scroll')
+      , nav = $('.logo-header')
+      , nav_height = nav.outerHeight();
+
+    $(window).on('scroll', function () {
+      var cur_pos = $(this).scrollTop();
+      sections.each(function() {
+        var top = $(this).offset().top - nav_height,
+            bottom = top + $(this).outerHeight();
+        
+        if (cur_pos >= top && cur_pos <= bottom) {
+          nav.find('a').removeClass('active-item');
+          sections.removeClass('active-item');
+          nav.find('a[data-id="#'+$(this).attr('id')+'"]').addClass('active-item');
+          
+        }
+      });
+    });
+
 });
 
 
