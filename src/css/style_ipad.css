@@ -1,0 +1,5 @@
+@media only screen and (max-width: 768px) {
+    .slick-prev,.slick-next{
+        display: none !important;
+    }
+}
