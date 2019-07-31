@@ -9,7 +9,7 @@ $(document).ready(function () {
     });
     $("#mini-refs .img").click(function (event) {
         const index = $("#mini-refs .img").index(this);
-        $(".slick-dots li").eq(index).trigger('click');
+        $('#slides').slick('slickGoTo', index);
         $("#mini-refs img").removeClass("active");
         $(this).children(0).addClass("active");
     });
@@ -109,6 +109,9 @@ $(document).ready(function () {
       });
     });
 
+    $(".browse").on('click', function () {
+        $("#artwork").trigger("click");
+    })
 });
 
 

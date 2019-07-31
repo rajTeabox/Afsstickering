@@ -119,9 +119,10 @@
     padding-bottom: 35px !important;
 }
 .logo-header {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;    z-index: 9999;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
     box-shadow: 0 3px 16px 0 rgba(0,0,0,.11);
 }
 
@@ -465,3 +466,171 @@
   background: #CBCBCB; 
 }
 /*End Desktop CSS*/
+
+
+/*
+Modal*/
+.modal-dialog {
+    max-width: 100% !important;
+    height: 100%!important;
+    margin: 0 !important;
+    padding: 0;
+}
+
+.modal-dialog .modal-body{
+    padding: 0 !important;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.modal-content {
+    height: auto;
+    min-height: 100%;
+    border: none !important;
+    border-radius: 0px !important;
+}
+
+.modal-dialog .modal-body .part1{
+    width: 40%;
+    background: #000000;
+    padding: 50px 50px 0 80px;
+}
+.modal-dialog .modal-body .part1 button{
+    font-size: 50px;
+    background: transparent;
+    color: #ccc;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.modal-dialog .modal-body .part2{
+    width : 60%;
+}
+.hr{
+    margin: 40px 0;
+    border-top: 1px solid #ececec;
+    opacity: 0.3;
+}
+.side1 .getInTouch{
+   font-size: 36px;
+    font-family: 'ProximaNovaSemiboldItalic';
+}
+.side1 .addedText{
+    font-size: 14px;
+    font-family: 'ProximaNovaRegular';
+}
+.side2{
+    font-size: 18px;
+    font-family: 'ProximaNovaBold';
+}
+.side2 .icon{
+    height: 20px;
+    width: 20px;
+    background-size: 100%;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin-right: 15px;
+}
+.side2 .call{
+   background-image: url("../image_folder/Desktop/phone-call.svg");
+}
+.side2 .support{
+    background-image: url("../image_folder/Desktop/Support.svg");
+}
+
+.side-3 .socialIcons span{
+    height: 25px;
+    width: 25px;
+    background-size: 100%;
+    display: inline-block;
+    position: relative;
+    margin-right: 5px;
+}
+.side-3 .socialIcons .fb{
+    background-image: url("../image_folder/Desktop/Facebook.svg");
+}
+.side-3 .socialIcons .insta{
+    background-image: url("../image_folder/Desktop/Instagram.svg");
+}
+.side-3 .socialIcons .twitter{
+    background-image: url("../image_folder/Desktop/Twitter.svg");
+}
+.side-3 .socialIcons .youtube{
+    background-image: url("../image_folder/Desktop/Youtube.svg");
+}
+.side-3 .social, .side-4 .addressheading{
+    font-size: 18px;
+    font-family: 'ProximaNovaBold';
+}
+.side-4 .address{
+    opacity: 0.5;
+    font-size: 14px;
+    font-family: 'ProximaNovaRegular';
+}
+.side-5{
+    font-size: 12px;
+    opacity: 0.5;
+    font-family: 'ProximaNovaRegular';
+}
+
+.modal-dialog .modal-body .part2{
+    padding: 80px 76px 0 150px;
+    color: #000000;
+}
+
+.modal-dialog .modal-body .part2 .form-group input {
+    height: 55px !important;
+    border-radius: 0 !important;
+    font-size: 16px;
+    font-family: 'ProximaNovaRegular';
+    color: #BFC0C6;
+}
+.modal-dialog .modal-body .part2 .form-group textarea{
+    border-radius: 0 !important;
+    font-size: 16px;
+    font-family: 'ProximaNovaRegular';
+    color: #BFC0C6;
+}
+.modal-dialog .modal-body .part2 .form-group input:focus, .modal-dialog .modal-body .part2 .form-group textarea:focus{
+    border: 2px solid #E50028 !important;
+    outline: none;
+}
+
+.modal-dialog .modal-body label, .fileName{
+    font-size: 15px;
+    font-family: 'ProximaNovaBold';
+}
+input[type="file"] {
+    display: none;
+}
+
+.browse{
+    padding: 10px;
+    border: 1px solid #cccccc;
+    font-size: 14px;
+    margin-right: 20px;
+    font-family: 'ProximaNovaRegular';
+    cursor: pointer;
+}
+.fileName{
+    color: #BFC0C6;
+    font-family: 'ProximaNovaRegular';
+}
+.artworkDialogue{
+    padding: 30px 0;
+    font-size: 15px;
+    color: #BFC0C6;
+    color: #BFC0C6;
+    font-family: 'ProximaNovaRegular';
+}
+.submit button{
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    height: 55px;
+    border: none;
+    background: #D93447;
+    color: #fff;
+    cursor: pointer;
+}
