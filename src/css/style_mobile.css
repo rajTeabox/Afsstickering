@@ -10,6 +10,7 @@
 */	}
     .section1 {
         min-height: 300px !important;
+        margin-top: 75px;
     }
     .section-3 button.slick-prev {
         display: none !important;
@@ -118,7 +119,7 @@
         position: relative;
     }
     .about-us-left {
-        padding: 35px 60px !important;
+        padding: 35px 55px !important;
     }
     .section-2{
       padding-bottom: 0px !important;
@@ -136,7 +137,7 @@
     }
     .mobile-about-heading {
       padding-bottom: 30px;
-      padding-left: 60px;
+      padding-left: 55px;
     }
     .mobile-about-heading span {
         line-height: 32px;
@@ -150,7 +151,7 @@
         font-style: italic;
     }
     .section-6{ 
-        display: none !important;
+        /* display: none !important; */
     }
     .section-3 {
         padding: 30px 0 0px;
@@ -167,7 +168,7 @@
         padding-left: 60px;
         line-height: 32px;
         font-size: 20px;
-        margin-left: 60px;
+        margin-left: 55px;
         height: 22px !important;
         padding-left: 12px;
         border-left: 2px solid #D93447 !important;
@@ -252,7 +253,7 @@
     }
     #testimonialSlider {
         background: #F7F7F7;
-        padding: 0 20px !important;
+        padding: 0 8px !important;
     }
     .section-4 #testimonialSlider .item .description{
         font-size: 14px !important;
@@ -300,7 +301,7 @@
     }
     .faq-list {
         padding: 0px 16%;
-        padding-right: 14%;
+        padding-right: 12%;
         padding-top: 20px;
     }
     .section-7 .heading{
@@ -320,18 +321,20 @@
         transition: 0.4s;
         padding-top: 18px !important;
     }
+    .accordion span{
+        display: inline-block;
+        width: 190px;
+    }
     .panel{
         font-size: 14px !important;
     }
     .over-flow {
         max-height: 300px;
         overflow-y: scroll;
-        padding-right: 5px;
     }
     .over-flow{
       max-height: 300px;
       overflow-y: scroll;
-      padding-right: 5px;
     }
     /*End section-7*/
     /*scroll bar css*/
@@ -355,6 +358,22 @@
     /* Handle on hover */
     .over-flow::-webkit-scrollbar-thumb:hover {
       background: #CBCBCB; 
+    }
+    .section-6 .afs-button {
+        border: 1px solid #E50028;
+        background-color: #E50028;
+        color: white;
+        font-size: 12px;
+        padding: 10px 20px;
+        font-family: ProximaNovaSemibold;
+        border-radius: 2px;
+        width: 320px;
+        height: 40px;
+    }
+    .active-item {
+        color: #e50028 !important;
+        border-bottom: none !important;
+        padding-bottom: 0px !important;
     }
 }
 /*End Mobile CSS*/

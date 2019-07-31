@@ -131,6 +131,7 @@
 .section1{
     background: #000;
     min-height: 600px;
+    margin-top: 108px;
     border-top: 1px solid #333;
 }
 
@@ -380,7 +381,7 @@
 
 /*section-7*/
 .section-7 {
-	margin-top: 50px;
+	margin-top: 70px;
 	margin-bottom: 50px;
 }
 .section-7 .heading{
@@ -400,7 +401,11 @@
     font-size: 20px;
     font-family: proximaNovaBold;
     transition: 0.4s;
-    padding-top: 25px;
+    padding-top: 28px;
+}
+.accordion span{
+    display: inline-block;
+    width: 400px;
 }
 .faq-detail{
 	border-bottom: 1px solid #CBCBCB;
@@ -470,6 +475,9 @@
 
 /*
 Modal*/
+#myModal{
+    padding-right: 0px !important;
+}
 .modal-dialog {
     max-width: 100% !important;
     height: 100%!important;
