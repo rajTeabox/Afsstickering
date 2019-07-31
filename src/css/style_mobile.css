@@ -101,7 +101,8 @@
         color: #fff;
     }
     #collapsibleNavbar {
-        border: 1px solid #333;
+        border-top: 1px solid #333;
+        border-bottom: 1px solid #333;
     }
     .navbar-toggler{
         outline: none !important;
@@ -373,7 +374,10 @@
     .active-item {
         color: #e50028 !important;
         border-bottom: none !important;
-        padding-bottom: 0px !important;
+        padding-bottom: 10px !important;
+    }
+    .header-mobile .navbar-nav {
+        width: 100%;
     }
 }
 /*End Mobile CSS*/
