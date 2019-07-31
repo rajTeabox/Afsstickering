@@ -16,7 +16,8 @@ $(document).ready(function () {
 
     $('#testimonialSlider').slick({
         dots : true,
-        arrows : false
+        arrows : false,
+        autoplay: true
     });
 
     $('#our-works').slick({
