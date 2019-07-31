@@ -238,3 +238,48 @@
 
 }
 /*End Mobile CSS*/
+
+ /*Start ipad Css*/
+@media only screen and (max-width: 768px) {
+    .modal-body .part1 .getInTouch{
+        font-size: 28px;
+    }
+    .modal-dialog .modal-body .part2{
+        padding: 80px 76px 0 50px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .modal-dialog .modal-body .part1{
+        display: none;
+    }
+    .modal-dialog .modal-body .part2 {
+        padding: 0px;
+        width: 100%;
+    }
+    .modal-dialog .modal-body .part2 form{
+        padding: 0 20px;
+    }
+    .modal-dialog .modal-body .part2 .forXs{
+        height: 100px;
+        background: #000;
+        color: #fff;
+        padding: 20px;
+    }
+    .modal-dialog .modal-body .part2 .forXs .getInTouch{
+        font-size: 20px;
+        font-family: 'ProximaNovaSemiboldItalic';
+    }
+    .modal-dialog .modal-body .part2 .forXs .line2{
+        font-size: 14px;
+        font-family: proximaNovaRegular;
+        padding-left: 25px;
+    }
+    .modal-dialog .modal-body .part2 .forXs .side-mark{
+        height: 15px;
+        border-left: 2px solid #D93447;
+        width: 8px;
+        display: inline-block;
+        margin-right: 15px;
+    }
+}

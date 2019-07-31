@@ -44,7 +44,7 @@
 					      <a class="nav-link service_header header-hover" data-id="#section-5" href="javascript:void(0)">OUR WORKS</a>
 					    </li>
 					    <li class="nav-item">
-					      <a class="nav-link contact-cta Contact_Us" href="#lets-connect" style="color: white !important">CONTACT US</a>
+					      <a class="nav-link contact-cta Contact_Us" href="#lets-connect" data-toggle="modal" data-target="#myModal" style="color: white !important">CONTACT US</a>
 					    </li>
 					</ul>
 				</div>
@@ -67,7 +67,7 @@
     			<div class="col-6 justify-content-end" style="padding-top: 15px;text-align: -webkit-right;">
     				<ul>
 						<li style="padding-top: 5px;">
-		    				<a class="nav-link contact-cta Contact_Us" href="index.html#lets-connect" style="color: white;">
+		    				<a class="nav-link contact-cta Contact_Us" data-toggle="modal" data-target="#myModal"  href="index.html#lets-connect" style="color: white;">
 			    				CONTACT US
 			    			</a>
 			    		</li>
@@ -469,6 +469,105 @@
       </div>
     <!--Start Section-8-->
 
+  </div>
+
+  <!--Contact Us Model-->
+  <div class="modal fade" id="myModal">
+	  <div class="modal-dialog modal-xl">
+		  <div class="modal-content">
+
+			  <!-- Modal Header -->
+			  <!--<div class="modal-header">
+				  <h4 class="modal-title">Modal Heading</h4>
+				  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  </div>-->
+
+			  <!-- Modal body -->
+			  <div class="modal-body">
+				  <div class="part1">
+					  <div class="side1">
+						  <button type="button" data-dismiss="modal">&times;</button>
+						  <div class="getInTouch">GET IN TOUCH</div>
+						  <div class="addedText">We would love to hear from you</div>
+					  </div>
+					  <hr class="hr"/>
+					  <div class="side2">
+							<div class="mb-4">
+								<span class="icon call"></span>
+								<span>Call/Whatsapp us</span>
+							</div>
+						  <div>
+							  <span class="icon support"></span>
+							  <span>24/7 Support</span>
+						  </div>
+					  </div>
+					  <hr class="hr"/>
+					  <div class="side-3">
+							<div class="social mb-3">SOCAIL MEDIA</div>
+						  <div class="socialIcons">
+							  <span class="fb"></span>
+							  <span class="insta"></span>
+							  <span class="twitter"></span>
+							  <span class="youtube"></span>
+						  </div>
+					  </div>
+					  <hr class="hr"/>
+					  <div class="side-4">
+						  <div class="addressheading">
+							  CORPORATE OFFICE
+						  </div>
+						  <div class="address">
+							  #55, 8th Main 1st A Cross NEW Gurappana Palya BTM 1st stage Bannerghatta main road. Bangalore Karnataka 560029
+						  </div>
+					  </div>
+					  <hr class="hr"/>
+					  <div class="side-5">
+						  Design & Developed By: www.frequency-lab.in
+					  </div>
+
+				  </div>
+				  <div class="part2">
+					  <div class="forXs .d-block .d-sm-none">
+						<span class="side-mark"></span><span class="getInTouch">GET IN TOUCH</span><br>
+						  <span class="line2">We would love to hear from you</span>
+					  </div>
+					  <form action="/action_page.php">
+						  <div class="form-group">
+							  <label for="name">FULL NAME</label>
+							  <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+						  </div>
+						  <div class="form-group">
+							  <label for="email">EMAIL ADDRESS:</label>
+							  <input type="email" class="form-control" id="email" placeholder="Enter your email here" name="email">
+						  </div>
+						  <div class="form-group">
+							  <label for="contact">CONTACT NUMBER</label>
+							  <input type="text" class="form-control" id="contact" placeholder="Enter your contact number here" name="contact">
+						  </div>
+						  <div class="form-group">
+							  <label for="companyname">COMPANY NAME</label>
+							  <input type="text" class="form-control" id="companyname" placeholder="Enter your company name here" name="companyname">
+						  </div>
+
+						  <div class="form-group">
+							  <label for="message">MESSAGE HERE</label>
+							  <textarea type="text" rows="3" class="form-control" id="message" placeholder="Message here ( Maximum 100 words)" name="message"></textarea>
+						  </div>
+
+						  <div class="form-group">
+							  <label for="artwork" class="mb-4">UPLOAD YOUR ART WORK</label><br>
+							  <input type="file"  class="form-control" id="artwork" placeholder="Message here ( Maximum 100 words)" name="artwork" />
+							  <span class="browse">BROWSE FILE</span><span class="fileName">No file selected</span><br>
+							  <div class="artworkDialogue">If you can, please supply us with a visual of your artwork</div>
+						  </div>
+						  <div class="submit">
+							  <button type="submit">SUBMIT</button>
+						  </div>
+					  </form>
+				  </div>
+			  </div>
+		  </div>
+	  </div>
   </div>
 
 
