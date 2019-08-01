@@ -405,7 +405,7 @@
 }
 .accordion span{
     display: inline-block;
-    width: 400px;
+    width: 384px;
 }
 .faq-detail{
 	border-bottom: 1px solid #CBCBCB;
@@ -594,14 +594,14 @@ Modal*/
     height: 55px !important;
     border-radius: 0 !important;
     font-size: 16px;
-    font-family: 'ProximaNovaRegular';
-    color: #BFC0C6;
+    font-family: 'ProximaNovaSemibold';
+    color: #000000;
 }
 .modal-dialog .modal-body .part2 .form-group textarea{
     border-radius: 0 !important;
     font-size: 16px;
-    font-family: 'ProximaNovaRegular';
-    color: #BFC0C6;
+    font-family: 'ProximaNovaSemibold';
+    color: #000000;
 }
 .modal-dialog .modal-body .part2 .form-group input:focus, .modal-dialog .modal-body .part2 .form-group textarea:focus{
     border: 2px solid #E50028 !important;
@@ -644,4 +644,21 @@ input[type="file"] {
     background: #D93447;
     color: #fff;
     cursor: pointer;
+}
+
+::placeholder {
+     color: #BFC0C6;;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #BFC0C6;;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #BFC0C6;;
+}
+
+*:focus {
+    outline: none;
 }
