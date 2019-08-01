@@ -583,7 +583,10 @@ Modal*/
 }
 
 .modal-dialog .modal-body .part2{
-    padding: 80px 76px 0 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     color: #000000;
 }
 

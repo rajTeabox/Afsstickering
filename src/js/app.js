@@ -112,6 +112,10 @@ $(document).ready(function () {
     $(".browse").on('click', function () {
         $("#artwork").trigger("click");
     })
+
+    $("#contactForm").submit(function () {
+
+    })
 });
 
 

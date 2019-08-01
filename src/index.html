@@ -489,12 +489,6 @@
 	  <div class="modal-dialog modal-xl">
 		  <div class="modal-content">
 
-			  <!-- Modal Header -->
-			  <!--<div class="modal-header">
-				  <h4 class="modal-title">Modal Heading</h4>
-				  <button type="button" class="close" data-dismiss="modal">&times;</button>
-			  </div>-->
-
 			  <!-- Modal body -->
 			  <div class="modal-body">
 				  <div class="part1">
@@ -540,14 +534,16 @@
 
 				  </div>
 				  <div class="part2">
-					  <div class="forXs .d-block .d-sm-none">
+					  <div class="forXs d-block d-sm-none">
+						  <span class="close-mark" data-dismiss="modal">&times;</span>
 						<span class="side-mark"></span><span class="getInTouch">GET IN TOUCH</span><br>
 						  <span class="line2">We would love to hear from you</span>
+
 					  </div>
-					  <form action="/action_page.php">
+					  <form method="post" id="contactForm" action="contact.php" enctype="multipart/form-data">
 						  <div class="form-group">
-							  <label for="name">FULL NAME</label>
-							  <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+							  <label for="fullname">FULL NAME</label>
+							  <input type="text" class="form-control" id="fullname" placeholder="Enter Name" name="fullname">
 						  </div>
 						  <div class="form-group">
 							  <label for="email">EMAIL ADDRESS:</label>
@@ -569,12 +565,12 @@
 
 						  <div class="form-group">
 							  <label for="artwork" class="mb-4">UPLOAD YOUR ART WORK</label><br>
-							  <input type="file"  class="form-control" id="artwork" placeholder="Message here ( Maximum 100 words)" name="artwork" />
+							  <input type="file" accept=".gif, .jpg, .png, .doc, .docx, .zip, .pdf"  class="form-control" id="artwork" placeholder="Message here ( Maximum 100 words)" name="artwork" />
 							  <span class="browse">BROWSE FILE</span><span class="fileName">No file selected</span><br>
 							  <div class="artworkDialogue">If you can, please supply us with a visual of your artwork</div>
 						  </div>
 						  <div class="submit">
-							  <button type="submit">SUBMIT</button>
+							  <button type="submit" onsubmit="contactSubmit()">SUBMIT</button>
 						  </div>
 					  </form>
 				  </div>
