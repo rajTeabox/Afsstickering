@@ -262,9 +262,15 @@
     .section-4 #testimonialSlider .item img{
         width: 70px;
     }
-
+    .section-4 #testimonialSlider .img{
+        display: block;
+    }
+    .section-4 #testimonialSlider .item .description{
+        text-align: left !important;
+    }
     .section-4 #testimonialSlider .item .title {
         font-size: 14px;
+        text-align: left;
     }
     .section-4 #testimonialSlider .slick-dots{
         bottom: 25px;
@@ -281,6 +287,7 @@
     }
     .section-5{
         background: #F7F7F7;
+        margin-top: 6px;
         padding-top: 30px;
         padding-left: 0px !important;
         padding-right: 0px !important;

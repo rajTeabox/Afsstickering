@@ -608,13 +608,7 @@ Modal*/
     outline: none;
 }
 
-.modal-dialog .modal-body label, .fileName{
-    font-size: 15px;
-    font-family: 'ProximaNovaBold';
-}
-input[type="file"] {
-    display: none;
-}
+
 
 .browse{
     padding: 10px;
