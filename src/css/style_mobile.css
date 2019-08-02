@@ -384,6 +384,19 @@
 
  /*Start ipad Css*/
 @media only screen and (max-width: 768px) {
+    .section-2 .learn-more{
+        position: relative;
+    }
+    .section-3 .rightSide .heading{
+        padding: 5px 0;
+        font-size: 15px;
+    }
+    .section-3 .rightSide{
+        padding: 0px 15px!important;
+    }
+    .sticker .mt-5{
+        margin-top: 0px !important;
+    }
     .modal-body .part1 .getInTouch{
         font-size: 28px;
     }
@@ -392,6 +405,7 @@
 }
 
 @media only screen and (max-width: 500px){
+
     .modal-dialog .modal-body .part1{
         display: none;
     }
@@ -429,4 +443,5 @@
         float: right;
         font-size: 40px;
     }
+
 }

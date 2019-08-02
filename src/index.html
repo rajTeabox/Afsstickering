@@ -22,14 +22,14 @@
     <div class="header-desktop d-none d-sm-block logo-header tab-active-scroll" id="logo-header">
       <div class="container">
       	<div class="row">
-      		<div class="col-lg-3 col-6 col-md-6">
+      		<div class="col-sm-2">
 				<div class="afs-sticker-logo">
 					<a href="index.html">
 						<img src="image_folder/Desktop/AFS_logo.svg" class="Home_Logo">
 					</a>
 				</div>
 			</div>
-			<div class="col-lg-9 col-6 col-md-6 logo-section">
+			<div class="col-sm-10 logo-section">
 				<div class="d-none d-sm-block desk-nav">
 					<ul class="nav justify-content-end">
 					    <li class="nav-item">
@@ -207,7 +207,7 @@
 									  </ul>
 								  </div>
 								  <div class="mt-5">
-									  <button class="afs-button">CONTACT US</button>
+									  <button class="afs-button" data-toggle="modal" data-target="#myModal">CONTACT US</button>
 								  </div>
 							  </div>
 						  </div>
@@ -233,7 +233,7 @@
 									  </ul>
 								  </div>
 								  <div class="mt-5">
-									  <button class="afs-button">CONTACT US</button>
+									  <button class="afs-button" data-toggle="modal" data-target="#myModal">CONTACT US</button>
 								  </div>
 							  </div>
 						  </div>
@@ -259,7 +259,7 @@
 									  </ul>
 								  </div>
 								  <div class="mt-5">
-									  <button class="afs-button">CONTACT US</button>
+									  <button class="afs-button" data-toggle="modal" data-target="#myModal">CONTACT US</button>
 								  </div>
 							  </div>
 						  </div>
@@ -285,7 +285,7 @@
 									  </ul>
 								  </div>
 								  <div class="mt-5">
-									  <button class="afs-button">CONTACT US</button>
+									  <button class="afs-button" data-toggle="modal" data-target="#myModal">CONTACT US</button>
 								  </div>
 							  </div>
 						  </div>
@@ -477,7 +477,7 @@
     <!--Start Section-8-->
       <div class="container section-6" id="our-works-contact">
         <div class="text-center">
-            <button class="afs-button">CONTACT US</button>
+            <button class="afs-button" data-toggle="modal" data-target="#myModal">CONTACT US</button>
         </div>
       </div>
     <!--Start Section-8-->
@@ -540,7 +540,7 @@
 						  <span class="line2">We would love to hear from you</span>
 
 					  </div>
-					  <form method="post" id="contactForm" action="contact.php" enctype="multipart/form-data">
+					  <form method="post" id="contactForm" style="width: 400px"  enctype="multipart/form-data">
 						  <div class="form-group">
 							  <label for="fullname">FULL NAME</label>
 							  <input type="text" class="form-control" id="fullname" placeholder="Enter Name" name="fullname">
@@ -563,14 +563,8 @@
 							  <textarea type="text" rows="3" class="form-control" id="message" placeholder="Message here ( Maximum 100 words)" name="message"></textarea>
 						  </div>
 
-						  <div class="form-group">
-							  <label for="artwork" class="mb-4">UPLOAD YOUR ART WORK</label><br>
-							  <input type="file" accept=".gif, .jpg, .png, .doc, .docx, .zip, .pdf"  class="form-control" id="artwork" placeholder="Message here ( Maximum 100 words)" name="artwork" />
-							  <span class="browse">BROWSE FILE</span><span class="fileName">No file selected</span><br>
-							  <div class="artworkDialogue">If you can, please supply us with a visual of your artwork</div>
-						  </div>
 						  <div class="submit">
-							  <button type="submit" onsubmit="contactSubmit()">SUBMIT</button>
+							  <button type="submit">SUBMIT</button>
 						  </div>
 					  </form>
 				  </div>
