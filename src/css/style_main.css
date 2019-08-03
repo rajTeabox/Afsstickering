@@ -247,7 +247,7 @@
 }
  /*Section-3*/
 .section-3{
-    padding: 80px 0 50px;
+    padding: 80px 0 70px;
     position: relative;
 }
 
@@ -343,13 +343,13 @@
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: -50px;
+    bottom: 25px;
     width: 100%;
 }
 
 /*Section 5*/
 .section-5{
-    padding-top: 100px;
+    padding-top: 80px;
 }
 .feature-work-banners{
     padding-top: 30px;
@@ -655,4 +655,30 @@ Modal*/
 
 *:focus {
     outline: none;
+}
+a:hover {
+    text-decoration: none !important;
+}
+li:hover{
+    cursor: pointer !important;
+}
+#about-us-more{
+    margin-top:120px;
+    padding:50px 25px;
+}
+#about-us-more h2{
+    color:#D93447;
+    font-family:proximaNovaBold;
+}
+#about-us-more h3{
+    font-family:proximaNovaSemiBold;
+    font-family:proximaNovaBold;
+}
+.abt-content{
+    font-size:18px;
+    font-family: proximaNovaRegular;
+}
+.our-vision{
+    color:#D93447;
+    font-family:proximaNovaBold;
 }
