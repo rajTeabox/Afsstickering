@@ -73,11 +73,17 @@
         text-align:center;
     }
     .section-3 {
-        padding: 60px 0 50px;
+        padding: 60px 0 60px;
     }
     .section-3 #mini-refs .img img {
         width: 81px;
         height: 81px;
+    }
+    .section-3 #mini-refs .img{
+        line-height: 0.7;
+    }
+    .section-3 #mini-refs .img span{
+        font-size: 12px;
     }
     .sticker ul li{
         font-size: 14px;
@@ -93,8 +99,11 @@
         width: 8px;
         height: 8px;
     }
+    .section-3 #mini-refs{
+        overflow: scroll;
+    }
     .section-3 .slick-dots {
-        bottom: 22px;
+        bottom: 70px;
         width: 58%;
     }
     .section-4 .heading {
@@ -108,5 +117,8 @@
     }
     .feature-work-banners {
         padding-top: 20px;
+    }
+    .modal-dialog .modal-body .part1 {
+        width: 43%;
     }
 }

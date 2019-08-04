@@ -101,6 +101,13 @@
     font-family: proximaNovaSemiBold;
     color: #fff;
 }
+.sticker ul li{
+    line-height:35px;
+    cursor: default !important;
+}
+.sticker .heading{
+    line-height:28px;
+}
 .logo-section {
     padding-top: 20px;
 }
@@ -263,6 +270,7 @@
 .section-3 #mini-refs{
     display: flex;
     justify-content: center;
+    padding:10px 0px;
 }
 
 .section-3 #mini-refs .img{
@@ -285,6 +293,10 @@
     padding: 50px 80px !important;
     background: #E50028;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .section-3 .rightSide .heading{
@@ -501,7 +513,7 @@ Modal*/
 .modal-dialog .modal-body .part1{
     width: 40%;
     background: #000000;
-    padding: 50px 50px 0 80px;
+    padding: 50px 50px 40px 80px;
 }
 .modal-dialog .modal-body .part1 button{
     font-size: 50px;
@@ -559,7 +571,7 @@ Modal*/
     background-image: url("../image_folder/Desktop/Facebook.svg");
 }
 .side-3 .socialIcons .insta{
-    background-image: url("../image_folder/Desktop/Instagram.svg");
+    background-image: url("../image_folder/Desktop/Insta.PNG");
 }
 .side-3 .socialIcons .twitter{
     background-image: url("../image_folder/Desktop/Twitter.svg");
