@@ -127,7 +127,7 @@ $(document).ready(function () {
            Steps To Follow
            https://www.npmjs.com/package/html-form-send-email-via-google-script-without-server */
     
-            var url = 'https://script.google.com/macros/s/AKfycbz7PiiVSglLHRK66p58obztlWAIHuaWEyOLQ4GgQw/exec';
+            var url = 'https://script.google.com/macros/s/AKfycbwkBxiB15KrCS4NaRqZf5ypG1Y91sWdPAy_5_-D7kgYizstMpTy/exec';
             $.ajax({
               method: 'POST',
               url: url,
