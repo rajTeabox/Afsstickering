@@ -199,6 +199,9 @@
         padding: 35px 55px !important;
         background: #E50028;
         color: #fff;
+        height: 320px;
+        align-items: initial !important;
+        padding-left: 20px !important; 
     }
     .mt-5 .afs-button{
         background-color: #FFFFFF;
@@ -215,7 +218,7 @@
         font-size: 16px;
     }
     .section-3 .slick-dots {
-        bottom: 54% !important;
+        bottom: 57% !important;
         width: 100% !important;
     }
     .slick-dots{
@@ -224,6 +227,10 @@
     .section-3 #mini-refs .img img{
         width: 55px !important;
         height: 55px !important;
+        
+    }
+    .section-3 #mini-refs .img{
+        line-height: 0.7;
     }
     .section-3 #mini-refs {
         padding-left: 15px;
@@ -382,12 +389,12 @@
         width: 100%;
     }
     .sticker ul li{
-        font-size: 16px;
+        font-size: 16px !important;
         font-family: proximaNovaRegular;
         line-height: 26px;
     }
     .sticker{
-        padding: 30px 30px !important;
+        padding: 30px 40px !important;
     }
     .section-2 .about_us_text{
         padding: 0px !important;
@@ -410,7 +417,7 @@
         width: 100%;
     }
     .modal-dialog .modal-body .part2 form{
-        padding: 0 20px;
+        padding: 20px 20px;
     }
     .modal-dialog .modal-body .part2 .forXs{
         height: 100px;

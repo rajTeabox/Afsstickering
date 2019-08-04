@@ -108,14 +108,41 @@ $(document).ready(function () {
         }
       });
     });
+    
+    // contact form
+    (function() {
+      $(document).ready(function() {
+        return $('#contact-form').submit(function(e) {
+          var email, message, name, phone, companyname;
+          name = document.getElementById('fullname');
+          email = document.getElementById('email');
+          phone = document.getElementById('contact');
+          companyname = document.getElementById('companyname');
+          message = document.getElementById('message');
+          if (!name.value || !email.value || !phone.value) {
+            alertify.error('Please check your entries');
+            return false;
+          } else {
+            /*  URL has to be integrated with their account
+           Steps To Follow
+           https://www.npmjs.com/package/html-form-send-email-via-google-script-without-server */
+    
+            var url = 'https://script.google.com/macros/s/AKfycbz7PiiVSglLHRK66p58obztlWAIHuaWEyOLQ4GgQw/exec';
+            $.ajax({
+              method: 'POST',
+              url: url,
+              data: $('#contact-form').serialize(),
+              datatype: 'json'
+            });
+            e.preventDefault();
+            $(this).get(0).reset();
+            return alertify.success('Message sent');
+          }
+        });
+      });
+    
+    }).call(this);
 
-    $(".browse").on('click', function () {
-        $("#artwork").trigger("click");
-    })
-
-    $("#contactForm").submit(function () {
-
-    })
 });
 
 
