@@ -143,6 +143,10 @@ $(document).ready(function () {
     
     }).call(this);
 
+    $(".support").click(function(){
+      window.fcWidget.open();
+      window.fcWidget.show();
+    });
 });
 
 
