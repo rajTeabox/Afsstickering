@@ -14,16 +14,14 @@ $(document).ready(function () {
             }
           }
         ]
-    }).on("afterChange", function (event){
-        let index = $(".slick-dots .slick-active").index()+1;
+    }).on("afterChange", function (event,index){
+        let  highlightIndex = index.currentSlide+1;
         $("#mini-refs img").removeClass("active");
-        $("#mini-refs .img:nth-child("+index+")").children(0).addClass('active');
+        $("#mini-refs .img:nth-child("+highlightIndex+")").children(0).addClass('active');
     });
     $("#mini-refs .img").click(function (event) {
         const index = $("#mini-refs .img").index(this);
         $('#slides').slick('slickGoTo', index);
-        $("#mini-refs img").removeClass("active");
-        $(this).children(0).addClass("active");
     });
 
     $('#testimonialSlider').slick({
