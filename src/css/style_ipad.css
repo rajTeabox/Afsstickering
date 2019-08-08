@@ -88,6 +88,7 @@
     .sticker ul li{
         font-size: 14px;
         font-family: proximaNovaRegular;
+        line-height: 26px !important;
     }
     .sticker{
         padding: 14px 30px;
@@ -101,10 +102,11 @@
     }
     .section-3 #mini-refs{
         overflow: scroll;
+        display: block !important;
     }
     .section-3 .slick-dots {
-        bottom: 70px;
-        width: 58%;
+        bottom: -30px;
+        width: 100%;
     }
     .section-4 .heading {
         margin-bottom: 20px;
@@ -120,5 +122,9 @@
     }
     .modal-dialog .modal-body .part1 {
         width: 43%;
+    }
+    .ipad-overflow{
+        width: 950px;
+        display: -webkit-box;
     }
 }

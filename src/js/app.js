@@ -1,7 +1,19 @@
 
 $(document).ready(function () {
     $('#slides').slick({
-        dots:true
+        dots:true,
+        draggable:false,
+        swipeToSlide: false,
+        touchMove: false,
+        swipe:false,
+        responsive: [
+          {
+            breakpoint:480,
+            settings: {
+              dots:false
+            }
+          }
+        ]
     }).on("afterChange", function (event){
         let index = $(".slick-dots .slick-active").index()+1;
         $("#mini-refs img").removeClass("active");
@@ -18,6 +30,12 @@ $(document).ready(function () {
         dots : true,
         arrows : false,
         autoplay: true
+    });
+
+    $('.service-individual').slick({
+      dots:true,
+      arrows:false,
+      draggable:true
     });
 
     $('#our-works').slick({

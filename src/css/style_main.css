@@ -254,7 +254,7 @@
 }
  /*Section-3*/
 .section-3{
-    padding: 80px 0 70px;
+    padding: 80px 0 100px;
     position: relative;
 }
 
@@ -298,6 +298,9 @@
     align-items: center;
     flex-direction: column;
 }
+.slick-slide img {
+    display: -webkit-inline-box !important;
+}
 
 .section-3 .rightSide .heading{
     font-size: 24px;
@@ -314,6 +317,10 @@
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
+}
+.service-individual .slick-dots
+{
+bottom: 25px !important;
 }
 
 
@@ -693,4 +700,7 @@ li:hover{
 .our-vision{
     color:#D93447;
     font-family:proximaNovaBold;
+}
+.ipad-overflow{
+    display: -webkit-box;
 }
