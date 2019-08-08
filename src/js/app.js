@@ -15,9 +15,11 @@ $(document).ready(function () {
           }
         ]
     }).on("afterChange", function (event,index){
-        let  highlightIndex = index.currentSlide+1;
-        $("#mini-refs img").removeClass("active");
-        $("#mini-refs .img:nth-child("+highlightIndex+")").children(0).addClass('active');
+        if(index.$slider[0].id === 'slides'){
+            let  highlightIndex = index.currentSlide+1;
+            $("#mini-refs img").removeClass("active");
+            $("#mini-refs .img:nth-child("+highlightIndex+")").children(0).addClass('active');
+        }
     });
     $("#mini-refs .img").click(function (event) {
         const index = $("#mini-refs .img").index(this);
