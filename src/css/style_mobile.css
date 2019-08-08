@@ -1,0 +1,450 @@
+/*Mobile css*/
+@media only screen and (max-width: 480px) {
+    .header-mobile{
+        height: 75px;
+        background-color: #000;
+    }
+    .container {
+        /*padding-left: 20px !important;
+        padding-right: 20px !important;
+*/	}
+    .section1 {
+        min-height: 300px !important;
+        margin-top: 75px;
+    }
+    .section-3 button.slick-prev {
+        display: none !important;
+    }
+    .section-3 button.slick-next {
+        display: none !important;
+    }
+    #mini-refs{
+        justify-content: flex-start !important;
+        overflow: scroll;
+    }
+    .section-2 .container {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .section1 .line1 {
+        padding-top: 60px !important;
+        padding-bottom: 10px !important;
+        font-size: 18px !important;
+        color: #FFFFFF;
+        font-family: ProximaNovaLight;
+        margin: 0px 40px !important;
+        line-height: 18px !important;
+    }
+    .section1 .line2 {
+        font-size: 36px !important;
+        padding-bottom: 30px !important;
+        margin: 5px 40px !important;
+    }
+    .section1 #learn_more_btn {
+        display: none !important;
+    }
+    .section1-main {
+        position: relative;
+        bottom: 0px !important;
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+    }
+    .section1-main .col-sm-4 {
+        padding: 0 !important;
+        height: 125px !important;
+        background-color: #F21F35;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        color: #FFFFFF;
+    }
+    .section1-main .col-sm-4 .icon img{
+        width: 25px !important;
+    }
+    .section1-main .col-sm-4 .heading {
+        font-size: 14px !important;
+    }
+    .section1-main .col-sm-4 .contact{
+        font-size: 12px !important;
+    }
+    .section1 .line2 .verticleLine {
+        line-height: 40px;
+        height: 65px !important;
+        padding-left: 12px;
+        border-left: 2px solid #D93447 !important;
+        margin-right: 5px !important;
+        display: inline-block;
+    }
+    .contact-cta {
+        text-align: center;
+        width: 135px;
+        height: 38px;
+        padding-top: 10px !important;
+        font-family: proximaNovaSemiBold;
+    }
+
+    #contact-section {
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+    }
+    .header-mobile ul li{
+        list-style-type: none;
+    }
+    .navbar-nav {
+        padding-left: 26px !important;
+    }
+    #collapsibleNavbar ul li a{
+        font-size: 14px;
+        font-family: proximaNovaSemiBold;
+        color: #fff;
+    }
+    #collapsibleNavbar {
+        border-top: 1px solid #333;
+        border-bottom: 1px solid #333;
+    }
+    .navbar-toggler{
+        outline: none !important;
+    }
+    .flex-direction{
+        flex-direction: column-reverse;
+    }
+    .about-us-right{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .section-2 .learn-more {
+        bottom: initial !important;
+        padding-top: 30px;
+        position: relative;
+        text-align: left !important;
+    }
+    .about-us-left {
+        padding: 35px 55px !important;
+    }
+    .section-2{
+      padding-bottom: 0px !important;
+      padding-top: 30px;
+      margin-top: 10px;
+    }
+    .afs-button {
+      border: 1px solid #000;
+      background-color: #F7F7F7;
+      color: black;
+      font-size: 16px;
+      padding: 10px 20px;
+      font-family: ProximaNovaSemibold;
+      border-radius: 2px;
+    }
+    .mobile-about-heading {
+      padding-bottom: 30px !important;
+      padding-left: 55px !important;
+      text-align: left !important;
+    }
+    .mobile-about-heading span {
+        line-height: 32px;
+        font-size: 20px !important;
+        height: 22px !important;
+        padding-left: 12px;
+        border-left: 2px solid #D93447 !important;
+        margin-right: 5px !important;
+        display: inline-block;
+        font-family: proximaNovaBold;
+        font-style: italic;
+    }
+    .section-6{ 
+        /* display: none !important; */
+    }
+    .section-3 {
+        padding: 30px 0 0px !important;
+        margin-top: 6px;
+        position: relative;
+        background: #F7F7F7;
+    }
+    .section-3 .container {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .section-3 .heading,.section-4 .heading,.section-5 .heading,.section-7 .heading {
+    /* font-size: 36px; */
+        padding-left: 60px;
+        line-height: 32px;
+        font-size: 20px;
+        margin-left: 55px;
+        height: 22px !important;
+        padding-left: 12px;
+        border-left: 2px solid #D93447 !important;
+        margin-right: 5px !important;
+        display: block;
+        font-family: proximaNovaBold;
+        text-align: left !important;
+        font-style: italic;
+        margin-bottom: 0px !important;
+    }
+    .section-4 .heading {
+        line-height: 25px !important;
+        height: 40px !important;
+    }
+    .section-3 .rightSide .heading {
+        font-size: 20px !important;
+        font-family: ProximaNovaSemiboldItalic;
+        padding-left: 0px !important;
+        margin-left: 0px !important;
+        height: 35px !important;
+        border-left: none !important;
+        margin-right: 0px !important;
+    }
+    .section-3 .rightSide {
+        padding: 35px 55px !important;
+        background: #E50028;
+        color: #fff;
+        height: 320px;
+        align-items: initial !important;
+        padding-left: 20px !important; 
+    }
+    .mt-5 .afs-button{
+        background-color: #FFFFFF;
+        color: black;
+        font-size: 12px !important;
+        padding: 0px !important;
+        width: 110px;
+        height: 34px;
+        padding-top: 6px;
+        cursor: pointer;
+    }
+    .pl-3 ul li{
+        font-family: proximaNovaRegular;
+        font-size: 16px;
+    }
+    .section-3 .slick-dots {
+        bottom: 10% !important;
+        width: 100% !important;
+    }
+    .slick-dots{
+        bottom: 20px !important;
+    }
+    .section-3 #mini-refs .img img{
+        width: 55px !important;
+        height: 55px !important;
+        
+    }
+    .section-3 #mini-refs .img{
+        line-height: 0.7;
+    }
+    .section-3 #mini-refs {
+        padding-left: 15px;
+        padding-top: 20px;
+    }
+    #mini-refs span {
+        font-size: 10px;
+        font-family: proximaNovaRegular;
+        color: #A2A2A2;
+    }
+    .section-2 .afs-button {
+        border: 1px solid #000;
+        background-color: #F7F7F7;
+        color: black;
+        font-size: 12px;
+        padding: 8px 0px;
+        padding-top: 12px;
+        font-family: ProximaNovaSemibold;
+        border-radius: 2px;
+        width: 110px;
+        height: 36px;
+    }
+    .slick-dots li button{
+        background: #8B8B8B !important;
+    }
+    .section-4{
+        background: #F7F7F7;
+        margin-top: 6px;
+        padding: 30px 0 0px;
+    }
+    #testimonialSlider {
+        background: #F7F7F7;
+        padding: 0 8px !important;
+    }
+    .section-4 #testimonialSlider .item .description{
+        font-size: 14px !important;
+    }
+    .section-4 #testimonialSlider .item img{
+        width: 70px;
+    }
+    .section-4 #testimonialSlider .img{
+        display: block;
+    }
+    .section-4 #testimonialSlider .item .description{
+        text-align: left !important;
+    }
+    .section-4 #testimonialSlider .item .title {
+        font-size: 14px;
+        text-align: left;
+    }
+    .section-4 #testimonialSlider .slick-dots{
+        bottom: 25px;
+    }
+    .slick-dots li button:before
+    {
+        width: 8px;
+        height: 8px;
+        }
+    .slick-dots li button
+    {
+        width: 8px;
+        height: 8px;
+    }
+    .section-5{
+        background: #F7F7F7;
+        margin-top: 6px;
+        padding-top: 30px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .feature-work-banners .slick-slide{
+        margin: 0px !important;
+    }
+    .section-7{
+        margin-top: 25px;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .faq-list {
+        padding: 0px 16%;
+        padding-right: 12%;
+        padding-top: 20px;
+    }
+    .section-7 .heading{
+        padding-bottom: 0px !important;     
+    }
+    .accordion {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+        padding: 18px 0px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 14px;
+        font-family: proximaNovaBold;
+        transition: 0.4s;
+        padding-top: 18px !important;
+    }
+    .accordion span{
+        display: inline-block;
+        width: 190px;
+    }
+    .panel{
+        font-size: 14px !important;
+    }
+    .over-flow {
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+    .over-flow{
+      max-height: 300px;
+      overflow-y: scroll;
+    }
+    /*End section-7*/
+    /*scroll bar css*/
+    /* width */
+    .over-flow::-webkit-scrollbar {
+      width: 5px;
+    }
+
+    /* Track */
+    .over-flow::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px white; 
+      border-radius: 8px;
+    }
+     
+    /* Handle */
+    .over-flow::-webkit-scrollbar-thumb {
+      background: #CBCBCB;
+      border-radius: 8px;
+    }
+
+    /* Handle on hover */
+    .over-flow::-webkit-scrollbar-thumb:hover {
+      background: #CBCBCB; 
+    }
+    .section-6 .afs-button {
+        border: 1px solid #E50028;
+        background-color: #E50028;
+        color: white;
+        font-size: 12px;
+        padding: 10px 20px;
+        font-family: ProximaNovaSemibold;
+        border-radius: 2px;
+        width: 320px;
+        height: 40px;
+    }
+    .active-item {
+        color: #e50028 !important;
+        border-bottom: none !important;
+        padding-bottom: 10px !important;
+    }
+    .header-mobile .navbar-nav {
+        width: 100%;
+    }
+    .sticker ul li{
+        font-size: 16px !important;
+        font-family: proximaNovaRegular;
+        line-height: 26px;
+    }
+    .sticker{
+        padding: 30px 40px !important;
+    }
+    .section-2 .about_us_text{
+        padding: 0px !important;
+    }
+    #about-us-more{
+        margin-top:60px;
+        padding:50px 25px;
+    }
+}
+/*End Mobile CSS*/
+
+
+@media only screen and (max-width: 500px){
+
+    .modal-dialog .modal-body .part1{
+        display: none;
+    }
+    .modal-dialog .modal-body .part2 {
+        padding: 0px;
+        width: 100%;
+    }
+    .modal-dialog .modal-body .part2 form{
+        padding: 20px 20px;
+    }
+    .modal-dialog .modal-body .part2 .forXs{
+        height: 100px;
+        background: #000;
+        color: #fff;
+        padding: 20px;
+        width: 100%;
+    }
+    .modal-dialog .modal-body .part2 .forXs .getInTouch{
+        font-size: 20px;
+        font-family: 'ProximaNovaSemiboldItalic';
+    }
+    .modal-dialog .modal-body .part2 .forXs .line2{
+        font-size: 14px;
+        font-family: proximaNovaRegular;
+        padding-left: 25px;
+    }
+    .modal-dialog .modal-body .part2 .forXs .side-mark{
+        height: 15px;
+        border-left: 2px solid #D93447;
+        width: 8px;
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .modal-dialog .modal-body .part2 .forXs .close-mark{
+        float: right;
+        font-size: 40px;
+    }
+
+}

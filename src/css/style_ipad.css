@@ -1,0 +1,130 @@
+@media only screen and (max-width: 768px) {
+    .slick-prev,.slick-next{
+        display: none !important;
+    }
+    .section-2 .learn-more{
+        position: relative;
+    }
+    .section-3 .rightSide .heading{
+        padding: 5px 0;
+        font-size: 15px;
+    }
+    .section-3 .rightSide{
+        padding: 0px 15px!important;
+    }
+    .sticker .mt-5{
+        margin-top: 0px !important;
+    }
+    .modal-body .part1 .getInTouch{
+        font-size: 28px;
+    }
+    .modal-dialog .modal-body .part2{
+    }
+    .section1 .line1{
+        padding-top: 100px !important;
+    }
+    .section-2 .container{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .ipad-row-riverse{
+        flex-direction: column-reverse !important;
+    }
+    .ipad-row-riverse .heading{
+        display: none !important;
+    }
+    #mobile-about-heading{
+        display: block !important;
+    }
+    .ipad-about-us{
+        display: block !important;
+    }
+    .ipad-about-none{
+        display: none !important;
+    }
+    .mobile-about-heading {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .mobile-about-heading span {
+        line-height: 32px;
+        font-size: 36px;
+        height: 22px !important;
+        margin-right: 5px !important;
+        display: inline-block;
+        font-family: proximaNovaBold;
+        font-style: italic;
+    }
+    .about-us-left, .about-us-right{
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    .section-2 .row{
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+    .ipad-br-none{
+        /* display: none !important; */
+    }
+    .about_us_text{
+        padding: 30px 10%;
+    }
+    .learn-more{
+        text-align:center;
+    }
+    .section-3 {
+        padding: 60px 0 60px;
+    }
+    .section-3 #mini-refs .img img {
+        width: 81px;
+        height: 81px;
+    }
+    .section-3 #mini-refs .img{
+        line-height: 0.7;
+    }
+    .section-3 #mini-refs .img span{
+        font-size: 12px;
+    }
+    .sticker ul li{
+        font-size: 14px;
+        font-family: proximaNovaRegular;
+        line-height: 26px !important;
+    }
+    .sticker{
+        padding: 14px 30px;
+    }
+    .slick-dots li button {
+        background: #8B8B8B !important;
+    }
+    .slick-dots li button {
+        width: 8px;
+        height: 8px;
+    }
+    .section-3 #mini-refs{
+        overflow: scroll;
+        display: block !important;
+    }
+    .section-3 .slick-dots {
+        bottom: -30px;
+        width: 100%;
+    }
+    .section-4 .heading {
+        margin-bottom: 20px;
+    }
+    .section-4 #testimonialSlider .slick-dots{
+        bottom: 25px;
+    }
+    .section-5 {
+        padding-top: 60px;
+    }
+    .feature-work-banners {
+        padding-top: 20px;
+    }
+    .modal-dialog .modal-body .part1 {
+        width: 43%;
+    }
+    .ipad-overflow{
+        width: 950px;
+        display: -webkit-box;
+    }
+}
