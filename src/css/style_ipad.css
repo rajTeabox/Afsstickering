@@ -8,6 +8,7 @@
     .section-3 .rightSide .heading{
         padding: 5px 0;
         font-size: 15px;
+        line-height: 20px;
     }
     .section-3 .rightSide{
         padding: 0px 15px!important;
@@ -126,5 +127,19 @@
     .ipad-overflow{
         width: 950px;
         display: -webkit-box;
+    }
+    .section-3 .afs-button{
+        font-size: 14px;
+        color: #FFFFFF;
+        background: #E50028;
+        font-size: 14px;
+        padding: 8px 8px;
+        font-family: ProximaNovaSemibold;
+        border-radius: 2px;
+        outline: none;
+        width: 120px;
+        height: 40px;
+        padding-top: 12px;
+        cursor: pointer;
     }
 }

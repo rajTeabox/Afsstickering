@@ -37,7 +37,7 @@
     }
     .section1 .line2 {
         font-size: 36px !important;
-        padding-bottom: 30px !important;
+        padding-bottom: 50px !important;
         margin: 5px 40px !important;
     }
     .section1 #learn_more_btn {
@@ -264,6 +264,9 @@
     #testimonialSlider {
         background: #F7F7F7;
         padding: 0 8px !important;
+    }
+    #testimonialSlider .img{
+        text-align: left !important;
     }
     .section-4 #testimonialSlider .item .description{
         font-size: 14px !important;
