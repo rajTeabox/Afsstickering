@@ -103,8 +103,13 @@
 }
 .sticker ul li{
     line-height:35px;
-    cursor: default !important;
 }
+.sticker ul li a{
+    cursor:pointer;
+    color:white;
+    text-decoration:none;
+}
+
 .sticker .heading{
     line-height:28px;
 }
