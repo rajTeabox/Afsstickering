@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Led Signages | AfsStickering</title>
+  <link rel="icon" href="image_folder/Ipad/AFS_logo.svg" type="image/svg" sizes="16x16">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" type="text/css" href="../css/slick.css">
+  <link rel="stylesheet" type="text/css" href="../css/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="../css/alertify.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/style_main.css">
+  <link rel="stylesheet" type="text/css" href="../css/style_mobile.css">
+  <link rel="stylesheet" type="text/css" href="../css/style_ipad.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <!-- <script src="https://wchat.freshchat.com/js/widget.js"></script> -->
+  <style>
+        .faq-list {
+            padding: 0px 0% !important;
+            padding-right: 0% !important;
+            padding-top: 20px !important;
+        }
+        .dropdown:hover>.dropdown-menu {
+        display: block;
+        }
+
+        .dropdown>.dropdown-toggle:active {
+        /*Without this, clicking will make it sticky*/
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body onload="window.scrollBy(0, -50)">
+  <div class="afs-home">
+    <div class="header-desktop d-none d-sm-block logo-header tab-active-scroll" id="logo-header">
+      <div class="container">
+      	<div class="row">
+      		<div class="col-sm-2">
+				<div class="afs-sticker-logo">
+					<a href="../index.html">
+						<img src="../image_folder/Desktop/AFS_logo.svg" class="Home_Logo">
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-10 logo-section">
+				<div class="d-none d-sm-block desk-nav">
+					<ul class="nav justify-content-end">
+					    <li class="nav-item">
+					      <a class="nav-link home_link" data-id="#logo-header" href="../index.html">HOME</a>
+					    </li>
+					    <li class="nav-item" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					      <a class="nav-link" data-id="#section-3" href="javascript:void(0)">OUR SERVICES</a>
+                        </li>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background: white;">
+                            <a class="dropdown-item" href="javascript:void(0)" id="sign-board">3D Sign Boards</a>
+                            <a class="dropdown-item" href="javascript:void(0)" id="signage1">2D signage</a>
+                            <a class="dropdown-item" href="javascript:void(0)" id="signage2">Acrylic panel logo Sign</a>
+                            <!-- <a class="dropdown-item" href="javascript:void(0)" id="signage3">Etching Signage</a> -->
+                            <a class="dropdown-item" href="javascript:void(0)" id="signage4">Metal Signage's</a>
+                            <a class="dropdown-item" href="javascript:void(0)" id="signage5">Roll-ups Standees</a>
+                            <a class="dropdown-item" href="javascript:void(0)" id="signage6">Safety Signage's</a>
+                            <a class="dropdown-item" href="javascript:void(0)" id="signage7">Sun board Signage's</a>
+                            <a class="dropdown-item" href="javascript:void(0)" id="signage-last">WPC Signage's</a>
+                        </div>
+
+					    <li class="nav-item">
+					      <a class="nav-link service_header" data-id="#section-5" href="../index.html#section-5">OUR WORKS</a>
+					    </li>
+					    <li class="nav-item">
+					      <a class="nav-link contact-cta Contact_Us" data-toggle="modal" data-target="#myModal" style="color: white !important">CONTACT US</a>
+					    </li>
+					</ul>
+				</div>
+
+			</div>
+      	</div>
+      </div>
+    </div>
+    <div class="d-block d-sm-none header-mobile logo-header" id="logo-header">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-6 logo-section">
+    				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    					<img src="../image_folder/Mobile/Hamburger.svg">
+    				</button>&nbsp;&nbsp;
+    				<a href="../index.html">
+						<img src="../image_folder/Mobile/AFS_logo_mobile.svg" class="Home_Logo">
+					</a>
+    			</div>
+    			<div class="col-6 justify-content-end" style="padding-top: 15px;text-align: -webkit-right;">
+    				<ul>
+						<li style="padding-top: 5px;padding-right: 10px;">
+		    				<a class="nav-link contact-cta Contact_Us" data-toggle="modal" data-target="#myModal"  href="../index.html#lets-connect" style="color: white;">
+			    				CONTACT US
+			    			</a>
+			    		</li>
+       				</ul>
+    			</div>
+    		</div>
+    		<div class="row collapse navbar-collapse" id="collapsibleNavbar" style="background-color: #000;">
+			    <ul class="navbar-nav">
+			      <li class="nav-item" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<a class="nav-link home_link active-item" data-id="#logo-header" href="../index.html">HOME</a>
+			      </li>
+			      <li class="nav-item" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<a class="nav-link feature_header" data-id="#section-3" href="../index.html#section-3">OUR SERVICES</a>
+			      </li>
+				  <li class="nav-item" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<a class="nav-link service_header" data-id="#section-5" href="../index.html#section-5">OUR WORKS</a>
+				  </li>
+			    </ul>
+			  </div>
+    	</div>
+    </div>
+
+    <!-- About us -->
+    <div class="" id="about-us-more" style="clear: both">
+        <div class="container" id="SIGNAGES">
+                <div>
+                    <h2>
+                        <i>SIGNAGES</i>
+                    </h2>
+                </div>
+                <br>
+                <div>
+                    <h2 class="our-vision">Outdoor Advertising Display:</h2>
+                    <div class="abt-content">
+                        Your Signage’s need to be bold, memorable and most of all eye-catching. They also need to reflect your brand and give the passer-by a glimpse of what to expect when they enter your shop. A high-quality, professionally-made shop sign can be worth its weight in gold to your business. No matter what your signage requirements, if you’re interested in buying a new shop sign, get in touch with our team today and find out what we can do for you.
+                </div><br>
+                <div class="abt-content">
+                        AFS STICKERING, we have the tools, experience and creativity to produce truly excellent shop signs. We always ensure that our clients are completely satisfied with our results.
+                        <br><br>
+                        Our team have years of experience working with all types of sign material including Aluminum, Acrylic, Vinyl, PVC foam, Stainless Steel, Brass, Copper, Brass, WPC & Wood. Whatever variety of shop sign you’d like to buy, you can be sure that your order is in safe hands with us.
+                        <br><br>
+                        The modern look for your business to really make an impression. This proven commercial sign, gives your business the advertising it deserves.
+                        <br><br>
+                        Signage boards and signs have been using for years as a way of advertising their business while working on a job. A good professional sign sends out the right image for your company and can attract further business. It is one of the best ways to advertise your business to new customers as it works as an endorsement and shows trust in you. Especially if works are visible, it also shows potential customers the work you do which builds further confidence in your company. These are just a few of the reasons that a Sign Board is essential.
+                        <br><br>
+                        Don’t miss out on the chance to advertise what a great job you are doing and advertise your company with a Sign Board. Our boards are available in a choice of sizes to best suit the location you are working at. We can also make sure that you have a highly professional looking board to present the perfect image of your company. Our design team will work to your specifications in creating something you can be proud to represent your company. You can also fully customize your design with our design team.
+                        <br><br>
+                        Outdoor and external signs for promoting sales and business in the high street or no matter where your business does, from shops to restaurants and even public houses, we have all the signage and banners you will ever need. AFS STICKERING offering a premium sign service for all your sign needs, from basic wall poster frames to directional and information signs, to printed exterior logos. Stand banner produce signs for events and promotional days, to sporting display banners and even Standees and promotions, sales and marketing. We manufacture all kinds of Signage’s for all your needs at one stop.
+                        <br><br>
+                        Some of our external signs are ideal for use all year within the elements and are guaranteed to last. Stand banner print all our PVC banners and flags for advertising stand outside, we hand finish each and branded product in-house. Whatever your needs, we produce the right product at the right price, from wall mounted adverts and outdoor banner stands to custom printed.
+                        <br><br>
+                        We also produce supply large selection of poster sign frames and display Sign for self-promotion and also illuminated and backlight advertising stands for permanent promotion. Used for every facet of business that wants to promote special offers and generate sales. 
+                        <br><br>
+                        All our print processes are done in-house, so you can rest assured that your wallpaper or poster printing is in good hands. At standee banner, you can choose from every printing possibility and print solution for exhibitors, marketer or advertiser. We print using only the best quality of materials, Fantastic quality photo printed with protective over laminate.
+                        <br><br>
+                        Printed signs and graphics for long-term use, including fabric, Canvas, Vinyl & Flex printed graphics used for a variety of different stands and media’s, including exhibition graphics, shop fascia signs, health and safety and even printed inlay graphics for sun boards and sandwich construction Acrylic Signage glass graphics. We provide a cost-effective professional service for instant design for our products that can be printed and manufactured for next day delivery.  Graphic design service, complete Branding for all your company graphics, based on your existing corporate branding. Your literature and poster displays will be designed by experienced graphic designers who only work on exhibitions stands, so making you stand out from the competition. We can easily adapt your current company branding to work for any of our products to create the visual effect you need to attract new clients and customers.
+                </div><br><br>
+                <div>
+                    <h3>Proofing your Artwork</h3>
+                    <div>We are not like other printers; we always supply a design/layout preview for your approval free of charge. We will not begin production on your sign until you are happy with your proof. If any amendments need to be made, we can then offer our free design service.</div>
+                </div><br><br>
+                <div>
+                    <h3>Free Design</h3>
+                    <div>If you wish to use our free Design Service for your sign please send a brief of the design you require to the below email address with your Art work.</div>
+                </div><br><br>
+                <div>
+                    <h3>Custom Requirements</h3>
+                    <div>We do offer custom sizes for our signs if you would like a custom size please contact our design team.</div>
+                </div>
+                
+            </div>
+            <br id="singages-3D"><br>
+            <div>
+                <h2 class="our-vision">3D SIGNAGE’S:</h2>
+                <div class="abt-content">
+                    3D sign letters are made by cutting a sheet of material on a cnc-cutter to the shape and size of the letters or words that you need. The letters are then fabricated and hand finished to create the depth of the letters. We’re able to make the letters to the exact specifications of the design that you need and there is a vast range of fonts which we’re able to machine the letters to. The letters can either be fixed flush to the wall or raised off the wall with brackets.
+                    <br><br>
+                    3D acrylic letters and logos are bespoke and made-to-order in a range of sizes, shapes and styles. Suitable for both internal and external use. Because of the advantages of lower costs and maintenance compared to metal, acrylic lettering is used in all kinds of indoor and outdoor signs such as Office & Shops.
+                    <br><br>
+                    Acrylic lettering is a great method of signage and is widely available in a whole range of color’s, sizes and finishes. It also comes in translucent color’s which is great for creating lighting effects, Acrylic lettering is fantastic for displaying a clean, new, modern feel and for providing a splash of colour which brings your sign to life. 
+                    <br><br>
+                    Acrylic is simply a brilliant versatile material which is made from a bi-product by turning crude oil into petrol. In simple terms, Acrylic is a thick sheet of plastic that can be heated to form many different shapes and sizes and can be used in a whole range of ways. Our 3D acrylic logos are also available in a number of sizes and thicknesses.
+                    <br><br>
+                    Inside the Acrylic tray, High Quality LEDs are used to shine through the acrylic giving the sign a backlit sign effect. Our Custom Lighted Signs will help you stand out during the day and at night.
+                    <br><br>
+                    Possibly one of the most popular signage solutions. The LED Signage’s  is a quick and easy method to promote your business with the benefit of continuous LED illumination at a very low energy consumption.
+                    <br><br>
+                </div>
+                <div>
+                    <h3>Great points about our LED Signs</h3>
+                    <ul style="padding-left: 20px;">
+                        <li>Beautifully 3D Signs</li>
+                        <li>Professionally Routed Text</li>
+                        <li>Folded ACP Composite</li>
+                        <li>High Quality LEDs</li>
+                    </ul>
+                </div>
+                <br>
+                    <div>
+                        <div class="">  
+                            <div class="slider one-time">
+                                <div>
+                                    <img src="../image_folder/Desktop/Signages/3DSignages/IMG_0264.jpg" width="100%">
+                                </div>
+                                <div>
+                                    <img src="../image_folder/Desktop/Signages/3DSignages/IMG_5869_1024x1024.jpg" width="100%">
+                                </div>
+                                <div>
+                                    <img src="../image_folder/Desktop/Signages/3DSignages/IMG_8119.jpg" width="100%">
+                                </div>
+                                <div>
+                                    <img src="../image_folder/Desktop/Signages/3DSignages/Oscar-Signs-foam-letter-signs.jpg" width="100%">
+                                </div>
+                                <div>
+                                    <img src="../image_folder/Desktop/Signages/3DSignages/Subway-Sign-LED.jpg" width="100%">
+                                </div>
+                                <div>
+                                    <img src="../image_folder/Desktop/Signages/3DSignages/1479621349464-Waterproof-Stainless-Steel-LED-Facelit-Channel-Letters-for-Billboard-Signage.jpg.jpg" width="100%">
+                                </div>
+                                <div>
+                                    <img src="../image_folder/Desktop/Signages/3DSignages/3D-Hotel-Frontlit-Signage-Letters-Factory-Signs-3-300x300.jpg" width="100%">
+                                </div>
+                                <div>
+                                    <img src="../image_folder/Desktop/VinylCutting/3fdc1faad34ba95bbcdbc0f2df8d3f85.jpg" width="100%">
+                                </div>
+            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- oneway vision -->
+                <br id="signage-2d"><br><br><br>
+                <div>
+                    <h2 class="our-vision">2D SIGNAGE’S</h2>
+                    <div class="abt-content">
+                            Our LED signs are made from a single piece of ACP panel which is folded into a tray and then braced and riveted to ensure rigidity, your letters are then routed out and then backed with opaque Acrylic Panel
+                            <br><br>
+                            Inside the aluminum tray, High Quality LEDs are used to shine through the acrylic giving the sign a backlit sign effect. Our Custom Lighted Signs will help you stand out during the day and at night.
+                            <br><br>
+                            Possibly one of the most popular signage solutions. The LED Signage’s  is a quick and easy method to promote your business with the benefit of continuous LED illumination at a very low energy consumption.
+                            <br><br>
+                            Aluminum Composite is a fantastic material for sign fascia’s as its light weight, cost-effective and easily to produce for a fast turnaround. In many cases, if the colour you wanted isn’t one of the standard supplied color’s then we can vinyl wrap the fascia to achieve the colour you need. This material is not as strong as actual aluminum so it has a slightly shorter life span however it’s a cheaper alternative and ideal for many signs. 
+                            <br><br>
+                            The aluminum composite fascia can then be sign written in a number of ways including vinyl decals, flat cut letters and raised 3D letters.
+                            <br><br>
+                            The logo or text is individually cut from pre-colored vinyl film which is fitted to the face of the sign. This method of sign writing ensures all the graphics are fixed flush to the fascia panel and allows for changes to be made to the panel at a later date for example if the phone number changes or if the shop name changes. The vinyl decals can also be printed so you're able to display a photographic image on the sign or if a particular pantone colour or CMYK colour is needed for the text or logo.
+                            <br><br>
+                            Because the tray panel has folded edges it means the fixings used to secure the fascia to the shop front are well hidden which displays a cleaner tidier finish, unlike flat sign panels which requires the fixings to the fixed through the face of the tray.
+                            <br><br>
+                            Made from a flat sheet of aluminum which is machine folded to make the sign ridged and to create some depth to the sign. The sign tray is then sign written with flat cut acrylic letters or shapes to make up the logo. The acrylic letters can either be fixed flush to the fascia panel so that it creates a slightly raised effect or they can be fitted to raised brackets to create more of a three dimensional effect. With a range of acrylic color’s to choose from, the possibilities are endless and we can also combine acrylic letters with vinyl decals so parts of the sign are raised and other parts are flush.
+                            <br><br>
+                            The shop name or logo is then laser-cut out from the sign and removed which allows the internal lights to shine through and illuminated the letters clearly. Also known as stencil cut fascias, this method of sign making is hugely popular as it ensures the brand name is clearly visible and the production costs are much more cost-effective compared to 3D built up illuminated letters.
+                    </div><br>
+                    <div>
+                        <h3>Great points about our LED Signs</h3>
+                        <ul style="padding-left: 20px;">
+                            <li>Beautifully Illuminated LED Signs</li>
+                            <li>Professionally Routed Text</li>
+                            <li>Folded ACP Composite</li>
+                            <li>High Quality LEDs</li>
+                            <li>Quick Turn Around</li>
+                        </ul>
+                    </div>
+                    <br><br>
+                        <div>
+                            <div class="">  
+                                <div class="slider one-time">
+                                    <div>
+                                        <img src="../image_folder/Desktop/Signages/2DSIGNAGE'S/Illuminated-Sign-Chapel.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/Signages/2DSIGNAGE'S/Lindley-Architects.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/Signages/2DSIGNAGE'S/Soho-Illuminaterd-Sign.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/Signages/2DSIGNAGE'S/audio_illuminated.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/Signages/2DSIGNAGE'S/illuminated-sign-brave.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/Signages/2DSIGNAGE'S/reception-218jul18155921_big.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/Signages/2DSIGNAGE'S/vector-x-cel-sheffield_big.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/Signages/2DSIGNAGE'S/5-696-directory-sign-central-lancashire_big.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/Signages/2DSIGNAGE'S/IMG_7826.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/Signages/2DSIGNAGE'S/Illuminated-Sign-Dehli.jpg" width="100%">
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Clear-Acrylic -->
+                <br id="Clear-Acrylic"><br><br><br>
+                <div>
+                    <h2 class="our-vision">Clear Acrylic/Reception Signage’s:</h2>
+                    <div class="abt-content">
+                            Your Signage’s need to be bold, memorable and most of all eye-catching. They also need to reflect your brand and give the passer-by a glimpse of what to expect when they enter your shop. A high-quality, professionally-made shop sign can be worth its weight in gold to your business. No matter what your signage requirements, if you’re interested in buying a new shop sign, get in touch with our team today and find out what we can do for you.
+                            <br><br>
+                            AFS STICKERING, we have the tools, experience and creativity to produce truly excellent shop signs. We always ensure that our clients are completely satisfied with our results.
+                            <br><br>
+                            Our team have years of experience working with all types of sign material including, Acrylic, Vinyl, PVC foam, Roll-ups Standees, Stainless Steel, Brass, Copper, Titanium, WPC & Wood. Whatever variety of shop sign you’d like to buy, you can be sure that your order is in safe hands with us.
+                            <br><br>
+                            The modern look for your business to really make an impression. This proven commercial sign, gives your business the advertising it deserves.
+                            <br><br>
+                            Produced from Clear Imported Acrylic, Solid Acrylic letter, Vinyl Printing Etc..
+                            <br><br>
+                            Different thickness Flame Polished Acrylic. Your Design is then printed to the reverse of the substrate, using UV resistant eco solvent inks...
+                            <br><br>
+                            Each letter or element to your logo is precision routed and machined to achieve an incredibly accurate representation of your design. The Acrylic itself comes with a gloss finish as standard and is available in a range of different colors.
+                            <br><br>
+                            Signage boards and signs have been using for years as a way of advertising their business while working on a job. A good professional sign sends out the right image for your company and can attract further business. It is one of the best ways to advertise your business to new customers as it works as an endorsement and shows trust in you. Especially if works are visible, it also shows potential customers the work you do which builds further confidence in your company. These are just a few of the reasons that a Sign Board is essential.
+                            <br><br>
+                            Don’t miss out on the chance to advertise what a great job you are doing and advertise your company with a Sign Board. Our boards are available in a choice of sizes to best suit the location you are working at. We can also make sure that you have a highly professional looking board to present the perfect image of your company. Our design team will work to your specifications in creating something you can be proud to represent your company. You can also fully customize your design with our design team.
+                    </div><br>
+                    <div>
+                        <h3>Great points about our Acrylic Signs</h3>
+                        <ul style="padding-left: 20px;">
+                            <li>Different Thickness 100% Clear Imported Acrylic</li>
+                            <li>Eco Solvent Inks</li>
+                            <li>UV Protection </li>
+                            <li>Indoor or Outdoor Use</li>
+                        </ul>
+                    </div>
+                    <br>
+                        <div>
+                            <div class="">  
+                                <div class="slider one-time">
+                                    <div>
+                                        <img src="../image_folder/Desktop/Signages/ClearAcrylic/5-741-directory-sign-hull_big.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/Signages/ClearAcrylic/6-720-displays-plymouth_big.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/Signages/ClearAcrylic/6-722-displays-lancaster_big.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/Signages/ClearAcrylic/Acrylic-Man-Woman.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/Signages/ClearAcrylic/Frosted-Avalon.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/Signages/ClearAcrylic/Frosted-Sign-DRB.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/Signages/ClearAcrylic/Frosted-Sign-LMR.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/Signages/ClearAcrylic/Frosted-Sign-Pie-and-mash.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/Signages/ClearAcrylic/Frosted-sign-cards.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/Signages/ClearAcrylic/acrylic-aluminium-optics.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/Signages/ClearAcrylic/black--lizars-1_big.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/Signages/ClearAcrylic/clear-acrylic-sign-clinic.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/Signages/ClearAcrylic/reception-plaques-for-domestic-and-general-bedworth_big.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/Signages/ClearAcrylic/3-683-plaques-nottingham_big.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/Signages/ClearAcrylic/3-689-plaques-central-lancashire_big.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/Signages/ClearAcrylic/3D-letter-Glacier.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/Signages/ClearAcrylic/5-697-reception-sign-milton-keynes_big.jpg" width="100%">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br id="Metal-Signage"><br>
+                    <div>
+                        <h2 class="our-vision">METAL SIGNAGE’S:</h2>
+                        <div class="abt-content">
+                                Metal Signage’s is commonly used in the manufacturing of external signs due to its durability. Unlike some other materials there is no oxidisation or Rust that occurs with an Metal sign. So your sign will stay looking just as great as the day it arrived for many years to come. We use the highest quality materials when making all of our Metal signs.
+                                <br><br>
+                                Metal letters and logos are used as reliable forms of signage across the board from large buildings, offices and businesses to retail outlets, restaurants, schools and warehouses. Metal lettering ultimately displays a classy look which you don’t get from other production methods and it denotes permanence, reliability and dependability. Our choice of metals range from polished metal, brushed metal, rusted metal and painted metal.
+                                <br><br>
+                                Built up letters give you a three dimensional feel to your sign which makes them stand out from flat cut lettering. This type of metal lettering is manufactured from a flat metal sheet and fabricated to produce each unique letter.
+                                <br><br>
+                                The built up letters consist of a "letter face" which is displayed on the front of the sign and a "return side" which is also visible when fixed to the wall. This method gives the illusion that the letters are solid when in actual fact they're hollow. The advantages in using this method is it reduces the cost as well as the weight of the shop sign so they can be displayed and fixed to virtually any wall or front of shop.
+                                <br><br>
+                                These type of letters are made to order in a range of fonts, sizes and styles. The shape of the letter is laser cut from a flat sheet of metal. A strip of metal is folded around the side of the letter to create the return side and depth of the letters. This is usually soldered onto the side of the letter and a range of return sizes are used depending on how thick or chunky you'd like the letters to look.
+                                <br><br>
+                                The letters are then fitted to the wall with a two part nut and bolt fixing. The male-part of the fixing is welded onto the back of the letter. The female-part of the fixing is fitted onto the wall. The two parts of the fixing then slot together and are tightened up securely with a spanner to ensure they're securely into position.
+                                <br><br>
+                                <h3>Flat Cut Raised letters</h3>
+                                Flat cut letters are also designed to give you a three dimensional feel to your sign – they’re just not as chunky as the Built Up 3D Metal Letters. This type of metal lettering is manufactured from a flat metal sheet and fabricated to produce each unique letter.
+                                <br><br>
+                                The flat-cut letters consist of a "letter face" which is displayed on the front of the sign and not a "return side". The advantages in using this method is it reduces the cost compared to the built-up letters as well as the weight of the shop sign so they can be displayed and fixed to virtually any wall or front of shop.
+                                <br><br>
+                                These types of letters are made to order in a range of fonts, sizes and styles. The shape of the letter is laser cut from a flat sheet of metal. The letters are then fitted to the wall with a two part nut and bolt fixing. The male-part of the fixing is welded onto the back of the letter. The female-part of the fixing is fitted onto the wall. The two parts of the fixing then slot together and are tightened up securely with a spanner to ensure they're securely into position.
+                        </div><br>
+                        <div>
+                            <h3>PERSONALISED METAL SIGN DESIGN</h3>
+                            <p>We have a wide range of different metal sign types to cater for any requirement:</p>
+                            <ul style="padding-left: 20px;">
+                                <li>MS Signage’s</li>
+                                <li>SS Signage’s</li>
+                                <li>Brass Signage’s</li>
+                                <li>Copper Signage’s</li>
+                            </ul>
+                        </div><br>
+                        <div>
+                            <h3>Great points about our Metal Signs</h3>
+                            <ul style="padding-left: 20px;">
+                                <li>Different Thickness 100% Best Quality Materials</li>
+                                <li>Eco Solvent Inks</li>
+                                <li>UV Protection</li>
+                                <li>Indoor or Outdoor Use</li>
+                                <li>Customized Size</li>
+                            </ul>
+                        </div>
+                        <br>
+                            <div>
+                                <div class="">  
+                                    <div class="slider one-time">
+                                        <div>
+                                            <img src="../image_folder/Desktop/Signages/MetalSignage/14-766-fascia-warwick_big.jpg" width="100%">
+                                        </div>
+                                        <div>
+                                            <img src="../image_folder/Desktop/Signages/MetalSignage/14-769-fascia-lancaster_big.jpg" width="100%">
+                                        </div>
+                                        <div>
+                                            <img src="../image_folder/Desktop/Signages/MetalSignage/1479618435989-Solid-Brushed-Mirror-Flat-Cut-Stainless-Steel-Channel-Letter.jpg.jpg" width="100%">
+                                        </div>
+                                        <div>
+                                            <img src="../image_folder/Desktop/Signages/MetalSignage/1479622160801-Eletroplating-Plated-Gold-Letter-Titanium-Illuminated-Sign-3D-Letter-Logo-Sign-LED-Light-Letter.jpg.jpg" width="100%">
+                                        </div>
+                                        <div>
+                                            <img src="../image_folder/Desktop/Signages/MetalSignage/1479696831413-Fabricated-Mirror-Golden-Finish-Titanium-Letters-Sign.jpg" width="100%">
+                                        </div>
+                                        <div>
+                                            <img src="../image_folder/Desktop/Signages/MetalSignage/5-692-reception-sign-manchester_big.jpg" width="100%">
+                                        </div>
+                                        <div>
+                                            <img src="../image_folder/Desktop/Signages/MetalSignage/5-693-reception-sign-crawley_big.jpg" width="100%">
+                                        </div>
+                                        <div>
+                                            <img src="../image_folder/Desktop/Signages/MetalSignage/66076171_144077086698417_7312009166441078316_n.jpg" width="100%">
+                                        </div>
+                                        <div>
+                                            <img src="../image_folder/Desktop/Signages/MetalSignage/Brushed-Gold-Builder.jpg" width="100%">
+                                        </div>
+                                        <div>
+                                            <img src="../image_folder/Desktop/Signages/MetalSignage/Brushed-Letters-Law.jpg" width="100%">
+                                        </div>
+                                        <div>
+                                            <img src="../image_folder/Desktop/Signages/MetalSignage/Brushed-Silverrock.jpg" width="100%">
+                                        </div>
+                                        <div>
+                                            <img src="../image_folder/Desktop/Signages/MetalSignage/Letters-all-together.jpg" width="100%">
+                                        </div>
+                                        <div>
+                                            <img src="../image_folder/Desktop/Signages/MetalSignage/M6410.jpg" width="100%">
+                                        </div>
+                                        <div>
+                                            <img src="../image_folder/Desktop/Signages/MetalSignage/Protruding-Sign-Coffee.jpg" width="100%">
+                                        </div>
+                                        <div>
+                                            <img src="../image_folder/Desktop/Signages/MetalSignage/Protruding-Sign-Moixa.jpg" width="100%">
+                                        </div>
+                                        <div>
+                                            <img src="../image_folder/Desktop/Signages/MetalSignage/Protruding-Sign-Sirplus.jpg" width="100%">
+                                        </div>
+                                        <div>
+                                            <img src="../image_folder/Desktop/Signages/MetalSignage/Protruding-Sign-Store.jpg" width="100%">
+                                        </div>
+                                        <div>
+                                            <img src="../image_folder/Desktop/Signages/MetalSignage/Protruding-Sign-Watches.jpg" width="100%">
+                                        </div>
+                                        <div>
+                                            <img src="../image_folder/Desktop/Signages/MetalSignage/Round-Projecting.jpg" width="100%">
+                                        </div>
+                                        <div>
+                                            <img src="../image_folder/Desktop/Signages/MetalSignage/Signle-Post-Sign.jpg" width="100%">
+                                        </div>
+                                        <div>
+                                            <img src="../image_folder/Desktop/Signages/MetalSignage/Studio-Six-Sign.jpg" width="100%">
+                                        </div>
+                                        <div>
+                                            <img src="../image_folder/Desktop/Signages/MetalSignage/White-Aluminium-letters.jpg" width="100%">
+                                        </div>
+                                        <div>
+                                            <img src="../image_folder/Desktop/Signages/MetalSignage/alüminyum-tabela.jpeg" width="100%">
+                                        </div>
+                                        <div>
+                                            <img src="../image_folder/Desktop/Signages/MetalSignage/hanging-sign-coffee.jpg" width="100%">
+                                        </div>
+                                        <div>
+                                            <img src="../image_folder/Desktop/Signages/MetalSignage/hanging-sign-studio.jpg" width="100%">
+                                        </div>
+                                        <div>
+                                            <img src="../image_folder/Desktop/Signages/MetalSignage/11-775-shop-front-signs-lancaster_big.jpg" width="100%">
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Roll-ups Standees -->
+                        <br id="Roll-ups-standees"><br><br>
+                        <div>
+                            <h2 class="our-vision">Roll-ups Standees:</h2>
+                            <div class="abt-content">
+                                    If you’re looking for an easy-to-use, portable advertising stand or display stand, then we recommend our roll-ups. Our roll-ups come with a carry case and are easy to transport and put up.
+                                    <br><br>
+                                    They have numerous uses. A roll-up can be used for presentation and display at fairs, events and in stores, for example. It is an excellent tool for communicating a message at an exhibition or fair. The product is intended for indoor use.
+                                    <br><br>
+                                    A roll-up consists of an aluminum banner cassette which stands on the ground with double foldout base supports. You then simply pull the banner up out of the cassette and secure it at the rear using a support pole. The material has a grey reverse and blocks out all light, with a print surface that is non-reflective. Recommended for virtually all public environments, such as offices, fairs, shops, hospitals, hotels, etc. where environmentally certified material is a requirement.
+                                    <br><br>
+                                    Roll-ups are perfect for indoor use, such as fairs, exhibitions and other displays. They are an excellent tool for communicating a message or marketing a brand. Many companies use roll-ups for marketing purposes, as they are a convenient, effective and affordable marketing product.
+                                    <br>
+                            </div><br>
+                            <div>
+                                <h3>Great points about our Roll-ups Standees</h3>
+                                <ul style="padding-left: 20px;">
+                                    <li>Portable Advertising</li>
+                                    <li>Limited Size’s</li>
+                                    <li>Eco Solvent Inks</li>
+                                    <li>UV Protection</li>
+                                    <li>Indoor Use</li>
+                                </ul>
+                            </div>
+                            <br>
+                                <div>
+                                    <div class="">  
+                                        <div class="slider one-time">
+                                            <div>
+                                                <img src="../image_folder/Desktop/Signages/Roll-ups/1.jpg" width="100%">
+                                            </div>
+                                            <div>
+                                                <img src="../image_folder/Desktop/Signages/Roll-ups/223-thickbox_default.jpg" width="100%">
+                                            </div>
+                                            <div>
+                                                <img src="../image_folder/Desktop/Signages/Roll-ups/29-100-sky-tv-pop-up-banners_big.jpg" width="100%">
+                                            </div>
+                                            <div>
+                                                <img src="../image_folder/Desktop/Signages/Roll-ups/29-99-discover-worcestershire-banner-displays_big.jpg" width="100%">
+                                            </div>
+                                            <div>
+                                                <img src="../image_folder/Desktop/Signages/Roll-ups/51oDYtsL6xL._SL1000_.jpg" width="100%">
+                                            </div>
+                                            <div>
+                                                <img src="../image_folder/Desktop/Signages/Roll-ups/6c3f4792a4c8743ad629c09d16b029a0.jpg" width="100%">
+                                            </div>
+                                            <div>
+                                                <img src="../image_folder/Desktop/Signages/Roll-ups/Best-Roll-Up-Banner-Stand-80x-200cm-Wx-H-Stand-Only-Trade-Show-Advertising-Equipment-Display.jpg" width="100%">
+                                            </div>
+                                            <div>
+                                                <img src="../image_folder/Desktop/Signages/Roll-ups/EG7A5419.jpg" width="100%">
+                                            </div>
+                                            <div>
+                                                <img src="../image_folder/Desktop/Signages/Roll-ups/KASETA-ROLL-UP-ROLLUP-EXCLUSIVE-100x200-cm-FUTERAL.jpg" width="100%">
+                                            </div>
+                                            <div>
+                                                <img src="../image_folder/Desktop/Signages/Roll-ups/roll-up-banner-standee-500x500.jpg" width="100%">
+                                            </div>
+                                            <div>
+                                                <img src="../image_folder/Desktop/Signages/Roll-ups/rollup-3e6127a4dec84c8ff5fd4d0e8ea77e1cd708ab189c6a8bf1853ba6883b1a49cf.png" width="100%">
+                                            </div>
+                                            <div>
+                                                <img src="../image_folder/Desktop/Signages/Roll-ups/rollup-tył2.jpg" width="100%">
+                                            </div>
+                                            <div>
+                                                <img src="../image_folder/Desktop/Signages/Roll-ups/titan-800mm-roller-banner-stand-800x800.jpg" width="100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- safety signages -->
+                            <br id="Safety-signage"><br><br>
+                            <div>
+                                <h2 class="our-vision">Safety Signage’s:</h2>
+                                <div class="abt-content">
+                                        Our huge range of Safety Signs are designed to meet local and government regulations and we supply sign products to Corporate, schools, construction, & building, warehouse, office and workplace environments. We can also create customized signs with a short turnaround. Our signs are available in a range of materials, including self-adhesive vinyl, rigid plastics, glow in the dark, Sun boards, ACP and a huge range of sign sizes.
+                                        <br><br>
+                                        The responsibility of businesses extends beyond maximizing profits and ensuring efficient business processes. Creating a safe working environment for employees and contractors and a safe environment for local residents are just as important. Compliance with occupational health and safety legislation or other international legislation and regulations and standards is a basic requirement. For this reason, safety signage should be an integral part of any business’ safety measures.
+                                        <br><br>
+                                        If multiple hazards, prohibitions or instructions have to be communicated, composite signs are the most effective. These combined signs inform the employees, contractors and visitors about hazards, prohibitions or instructions. The information is arranged accessibly on a sign designed to fit the situation. It is possible to provide that information together with corporate branding elements; however, corporate branding usage is always subordinate to the safety message. Signs & Safety also pays a great deal of attention to the use of materials for the signs in relation to their use and location in the environment. We primarily use high-quality retro-reflective foils to increase the visibility of the signs considerably, both during the day and at night.
+                                        <br><br>
+                                        Safety signage a pictogram is the image used to convey the message of the sign. In statutory signage pictograms follow a very specific set of colour, shape and sizing rules. For this to work the image must be kept consistent. In its purest form a pictogram on a sign should be understood even if there is no text present. Following the standard colour and shape rules increase the likely hood of a universally understood pictogram and therefore sign.<br><br>
+                                        Safety Signs have very specific shapes. These shapes on signs send messages to the audience and form a set of rules that should be followed. This guidance is for employers and duty holders, and others who have responsibility for the control of work sites and premises, or operating equipment requiring verbal and/or non-verbal communications.
+
+                                        <br>
+                                </div><br>
+                                <div>
+                                    <h3>Great points about our Safety Signs</h3>
+                                    <ul style="padding-left: 20px;">
+                                        <li>Different Thickness 100%</li>
+                                        <li>Eco Solvent Inks</li>
+                                        <li>UV Protection</li>
+                                        <li>Indoor or Outdoor Use</li>
+                                        <li>Bespoken Size</li>
+                                        <li>Reflective / Non Reflective</li>
+                                    </ul>
+                                </div>
+                                <br>
+                                <div>
+                                    <div class="">  
+                                        <div class="slider one-time">
+                                            <div>
+                                                <img src="../image_folder/Desktop/Signages/SafetySign/shutterstock_345079229.jpg" width="100%">
+                                            </div>
+                                            <div>
+                                                <img src="../image_folder/Desktop/Signages/SafetySign/warning_big.jpg" width="100%">
+                                            </div>
+                                            <div>
+                                                <img src="../image_folder/Desktop/Signages/SafetySign/x30.jpg" width="100%">
+                                            </div>
+                                            <div>
+                                                <img src="../image_folder/Desktop/Signages/SafetySign/43-424-health-and-safety-signs_big.jpg" width="100%">
+                                            </div>
+                                            <div>
+                                                <img src="../image_folder/Desktop/Signages/SafetySign/43-426-health-and-safety-signs_big.jpg" width="100%">
+                                            </div>
+                                            <div>
+                                                <img src="../image_folder/Desktop/Signages/SafetySign/PP361.jpg" width="100%">
+                                            </div>
+                                            <div>
+                                                <img src="../image_folder/Desktop/Signages/SafetySign/fe.10z.jpg" width="100%">
+                                            </div>
+                                            <div>
+                                                <img src="../image_folder/Desktop/Signages/SafetySign/fire-action-safety-notices.jpg" width="100%">
+                                            </div>
+                                            <div>
+                                                <img src="../image_folder/Desktop/Signages/SafetySign/fire-equipment-signs.jpg" width="100%">
+                                            </div>
+                                            <div>
+                                                <img src="../image_folder/Desktop/Signages/SafetySign/fire-exit-signs.jpg" width="100%">
+                                            </div>
+                                            <div>
+                                                <img src="../image_folder/Desktop/Signages/SafetySign/fire-exit10jul17123725_big.jpg" width="100%">
+                                            </div>
+                                            <div>
+                                                <img src="../image_folder/Desktop/Signages/SafetySign/fire-extinguisher-id-signs.jpg" width="100%">
+                                            </div>
+                                            <div>
+                                                <img src="../image_folder/Desktop/Signages/SafetySign/fire-instruction-signs.jpg" width="100%">
+                                            </div>
+                                            <div>
+                                                <img src="../image_folder/Desktop/Signages/SafetySign/glass-safety-no-entry-sign.jpg" width="100%">
+                                            </div>
+                                            <div>
+                                                <img src="../image_folder/Desktop/Signages/SafetySign/iStock-930508664-e1537966353292.jpg" width="100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Sun-board-signage -->
+                            <br id="Sun-board-signage"><br><br>
+                            <div>
+                                <h2 class="our-vision">Sun Board/ Foam Board Signage’s:</h2>
+                                <div class="abt-content">
+                                        Sun board signs give you the best of both worlds – a sharp, professional look, combined with a super-lightweight design.
+                                        <br><br>
+                                        Durable printing means they’ll last for years, whether you use them to welcome visitors, direct employees or even just decorate; They’re also a great way to let shoppers know about seasonal specials or featured products in your shop.
+                                        <br><br>
+                                        Our Sun/Foam Boards will give add a touch of professionalism to any outdoor project, great advertising at your latest work site and are available in an assortment of shapes and sizes.
+                                        <br><br>
+                                        The Sun/Foam Boards is cut on our in house CNC router and then vinyl is applied to the front, printed with eco solvent inks these boards are Ideal as trades boards as they are weatherproof and perfect for outdoor use.
+                                        <br><br>
+                                        Your design will be printed and applied to the faces of the sign using high quality commercial grade vinyl.
+                                        <br><br>
+                                        Signage boards and signs have been using for years as a way of advertising their business while working on a job. A good professional sign sends out the right image for your company and can attract further business. It is one of the best ways to advertise your business to new customers as it works as an endorsement and shows trust in you. Especially if works are visible, it also shows potential customers the work you do which builds further confidence in your company. These are just a few of the reasons that a Sign Board is essential.
+                                        <br><br>
+                                        Don’t miss out on the chance to advertise what a great job you are doing and advertise your company with a Sign Board. Our boards are available in a choice of sizes to best suit the location you are working at. We can also make sure that you have a highly professional looking board to present the perfect image of your company. Our design team will work to your specifications in creating something you can be proud to represent your company. You can also fully customize your design with our design team.
+
+                                        <br>
+                                </div><br>
+                                <div>
+                                    <h3>Great points about our Sun Board/ Foam Board Signs.</h3>
+                                    <ul style="padding-left: 20px;">
+                                        <li>Rigid 3MM, 5MM, 8MM</li>
+                                        <li>Precision Cut any Size</li>
+                                        <li>Weatherproof and Suitable for Internal or External use</li>
+                                        <li>Eco Solvent Inks</li>
+                                        <li>UV Protection</li>
+                                    </ul>
+                                </div>
+                                <br>
+                                    <div>
+                                        <div class="">  
+                                            <div class="slider one-time">
+                                                <div>
+                                                    <img src="../image_folder/Desktop/Signages/SunBoardSign/24pt.jpg" width="100%">
+                                                </div>
+                                                <div>
+                                                    <img src="../image_folder/Desktop/Signages/SunBoardSign/24x36-foam-board-500x500.jpg" width="100%">
+                                                </div>
+                                                <div>
+                                                    <img src="../image_folder/Desktop/Signages/SunBoardSign/Eighthinch-WhiteSintra.jpg" width="100%">
+                                                </div>
+                                                <div>
+                                                    <img src="../image_folder/Desktop/Signages/SunBoardSign/FoamBoard-Stacked_600x.jpg" width="100%">
+                                                </div>
+                                                <div>
+                                                    <img src="../image_folder/Desktop/Signages/SunBoardSign/Foamcore_Sign.jpg" width="100%">
+                                                </div>
+                                                <div>
+                                                    <img src="../image_folder/Desktop/Signages/SunBoardSign/IMG01640-20110630-1208-1000x1000.jpg" width="100%">
+                                                </div>
+                                                <div>
+                                                    <img src="../image_folder/Desktop/Signages/SunBoardSign/extreme-white-foam-board-three-widths.jpg" width="100%">
+                                                </div>
+                                                <div>
+                                                    <img src="../image_folder/Desktop/Signages/SunBoardSign/resize.jpg" width="100%">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- WPC / Painted Letters -->
+                                <br id="WPC-signage"><br><br>
+                                <div>
+                                    <h2 class="our-vision">WPC / Painted Letters:</h2>
+                                    <div class="abt-content">
+                                            Manufactured from WPC, our painted letters and logos are bespoke and made-to-order in a range of sizes, shapes and colours. A flat sheet of acrylic is cnc-cut to the shape of the logo or text and then painted to your desired RAL colour or Pantone colour. There are also a range of paint finishes available such as gloss, satin and matt.
+                                            <br>Suitable for both internal and external use.
+                                            <br><br>
+                                            These WPC 3D Letters are the ideal finish to your Shop, Reception or Offices. Manufactured from 18 mm thick High Density WPC, we can achieve precision cutting and a superb finish.
+                                            <br><br>
+                                            Whether you need your logo cut out or you are looking to complete your new shop with standout 3D letters on your Wall.
+                                            
+                                            <br>
+                                    </div><br>
+                                    <div>
+                                        <h3>Great points about our WPC PAINTED Signs</h3>
+                                        <ul style="padding-left: 20px;">
+                                            <li>Rigid 18 mm thick Letters or Logo</li>
+                                            <li>Precision Cut Any Design</li>
+                                            <li>Your Logo Color Lettering</li>
+                                            <li>Weatherproof and Suitable for Internal or External use</li>
+                                        </ul>
+                                    </div>
+                                    <br>
+                                        <div>
+                                            <div class="">  
+                                                <div class="slider one-time">
+                                                    <div>
+                                                        <img src="../image_folder/Desktop/Signages/WpcSign/reception-signage-complete_big.jpg" width="100%">
+                                                    </div>
+                                                    <div>
+                                                        <img src="../image_folder/Desktop/Signages/WpcSign/20mm-White-Letter.jpg" width="100%">
+                                                    </div>
+                                                    <div>
+                                                        <img src="../image_folder/Desktop/Signages/WpcSign/25-white-lettering.jpg" width="100%">
+                                                    </div>
+                                                    <div>
+                                                        <img src="../image_folder/Desktop/Signages/WpcSign/3D-Edging.jpg" width="100%">
+                                                    </div>
+                                                    <div>
+                                                        <img src="../image_folder/Desktop/Signages/WpcSign/3D-letter-Glacier.jpg" width="100%">
+                                                    </div>
+                                                    <div>
+                                                        <img src="../image_folder/Desktop/Signages/WpcSign/3D-letters-Glacier-Point.jpg" width="100%">
+                                                    </div>
+                                                    <div>
+                                                        <img src="../image_folder/Desktop/Signages/WpcSign/Black-Letters.jpg" width="100%">
+                                                    </div>
+                                                    <div>
+                                                        <img src="../image_folder/Desktop/Signages/WpcSign/Net-Consult-3d.jpg" width="100%">
+                                                    </div>
+                                                    <div>
+                                                        <img src="../image_folder/Desktop/Signages/WpcSign/White-Foamex.jpg" width="100%">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br><br>
+                                    </div>
+                
+               
+                                </div>
+                             </div>
+
+                        </div>
+
+  <!--Contact Us Model-->
+  <div class="modal fade" id="myModal">
+	  <div class="modal-dialog modal-xl">
+		  <div class="modal-content">
+
+			  <!-- Modal body -->
+			  <div class="modal-body">
+				  <div class="part1">
+					  <div class="side1">
+						  <button type="button" data-dismiss="modal">&times;</button>
+						  <div class="getInTouch">GET IN TOUCH</div>
+						  <div class="addedText">We would love to hear from you</div>
+					  </div>
+					  <hr class="hr"/>
+					  <div class="side2">
+							<div class="mb-4">
+								<span class="icon call"></span>
+								<a href="tel:+91-9739928143" style="color: white;">
+                                        <span>Call/Whatsapp us</span>
+                                </a>
+							</div>
+						  <div>
+							  <span class="icon support"></span>
+							  <span>24/7 Support</span>
+						  </div>
+					  </div>
+					  <hr class="hr"/>
+					  <div class="side-3">
+							<div class="social mb-3">SOCAIL MEDIA</div>
+                            <div class="socialIcons">
+                                <a href="https://bit.ly/2KmVyIT" target="_blank"><span class="fb"></span></a>
+                                <a href="https://bit.ly/2KmVyIT" target="_blank"><span class="insta"></span></a>
+                                <a href="https://bit.ly/2KmVyIT" target="_blank"><span class="twitter"></span></a>
+                                <a href="https://bit.ly/2YApSsN" target="_blank"><span class="youtube"></span></a>
+                            </div>
+					  </div>
+					  <hr class="hr"/>
+					  <div class="side-4">
+						  <div class="addressheading">
+							  CORPORATE OFFICE
+						  </div>
+						  <div class="address">
+							  #55, 8th Main 1st A Cross NEW Gurappana Palya BTM 1st stage Bannerghatta main road. Bangalore Karnataka 560029
+						  </div>
+					  </div>
+					  <hr class="hr"/>
+					  <div class="side-5">
+                        © Copyright 2019. All Rights Reserved.
+					  </div>
+
+				  </div>
+				  <div class="part2">
+					  <div class="forXs d-block d-sm-none">
+						  <span class="close-mark" data-dismiss="modal">&times;</span>
+						<span class="side-mark"></span><span class="getInTouch">GET IN TOUCH</span><br>
+						  <span class="line2">We would love to hear from you</span>
+
+					  </div>
+					  <form method="post" id="contact-form" style="width: 400px">
+						  <div class="form-group">
+							  <label for="fullname">FULL NAME</label>
+							  <input type="text" class="form-control" id="fullname" placeholder="Enter Name" name="fullname">
+						  </div>
+						  <div class="form-group">
+							  <label for="email">EMAIL ADDRESS:</label>
+							  <input type="email" class="form-control" id="email" placeholder="Enter your email here" name="email">
+						  </div>
+						  <div class="form-group">
+							  <label for="contact">CONTACT NUMBER</label>
+							  <input type="text" class="form-control" id="contact" placeholder="Enter your contact number here" name="contact">
+						  </div>
+						  <div class="form-group">
+							  <label for="companyname">COMPANY NAME</label>
+							  <input type="text" class="form-control" id="companyname" placeholder="Enter your company name here" name="companyname">
+						  </div>
+
+						  <div class="form-group">
+							  <label for="message">MESSAGE HERE</label>
+							  <textarea type="text" rows="3" class="form-control" id="message" placeholder="Message here ( Maximum 100 words)" name="message"></textarea>
+						  </div>
+
+						  <div class="submit">
+							  <button type="submit">SUBMIT</button>
+						  </div>
+					  </form>
+				  </div>
+			  </div>
+		  </div>
+	  </div>
+  </div>
+
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script type="text/javascript" src="../js/slick.js"></script>
+  <script type="text/javascript" src="../js/alertify.min.js"></script>
+  <script type="text/javascript" src="../js/app.js"></script>
+  <script>
+    function initFreshChat() {
+        window.fcWidget.init({
+        token: "eb348f07-0235-4bc3-b896-940aca9cebb1",
+        host: "https://wchat.freshchat.com"
+        });
+    }
+    function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
+  </script>
+  <!-- Start of afs5929 Zendesk Widget script -->
+  <!--<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=12ee1ffc-7126-4e05-aade-a380c8d918b0"> </script>-->
+  <!-- End of afs5929 Zendesk Widget script -->
+</body>
+</html>

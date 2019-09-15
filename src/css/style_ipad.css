@@ -92,7 +92,7 @@
         line-height: 26px !important;
     }
     .sticker{
-        padding: 14px 30px;
+        padding: 12px 30px;
     }
     .slick-dots li button {
         background: #8B8B8B !important;
@@ -125,7 +125,7 @@
         width: 43%;
     }
     .ipad-overflow{
-        width: 950px;
+        width: 850px;
         display: -webkit-box;
     }
     .section-3 .afs-button{

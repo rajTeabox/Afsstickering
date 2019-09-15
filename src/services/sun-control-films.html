@@ -16,8 +16,23 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <!-- <script src="https://wchat.freshchat.com/js/widget.js"></script> -->
+  <style>
+        .faq-list {
+            padding: 0px 0% !important;
+            padding-right: 0% !important;
+            padding-top: 20px !important;
+        }
+        .dropdown:hover>.dropdown-menu {
+            display: block;
+        }
+
+        .dropdown>.dropdown-toggle:active {
+        /*Without this, clicking will make it sticky*/
+            pointer-events: none;
+        }
+    </style>
 </head>
-<body>
+<body onload="window.scrollBy(0, -50)">
   <div class="afs-home">
     <div class="header-desktop d-none d-sm-block logo-header tab-active-scroll" id="logo-header">
       <div class="container">
@@ -35,9 +50,13 @@
 					    <li class="nav-item">
 					      <a class="nav-link home_link" data-id="#logo-header" href="../index.html">HOME</a>
 					    </li>
-					    <li class="nav-item">
-					      <a class="nav-link feature_header" data-id="#section-3" href="../index.html#section-3">OUR SERVICES</a>
-					    </li>
+					    <li class="nav-item" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					      <a class="nav-link" data-id="#section-3" href="javascript:void(0)">OUR SERVICES</a>
+                        </li>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background: white;">
+                            <a class="dropdown-item" href="javascript:void(0)" id="sun1">Reflective Films</a>
+                            <a class="dropdown-item" href="javascript:void(0)" id="sun2">Non Reflective Films</a>
+                        </div>
 					    <li class="nav-item">
 					      <a class="nav-link service_header" data-id="#section-5" href="../index.html#section-5">OUR WORKS</a>
 					    </li>
@@ -90,17 +109,16 @@
 
     <!-- About us -->
     <div class="" id="about-us-more" style="clear: both">
-        <div class="container">
+        <div class="container" id="reflective-films">
                 <div>
                     <h2>
                         <i>Sun Control Films</i>
                     </h2>
                 </div>
-                
                 <br>
-                <div style="font-family: proximaNovaSemiBold;font-size:24px;">
-                    Frosted film gives you an opportunity to customize your office and home in a way that’s uniquely yours. We have a wide range of designs to choose from, or we can produce a custom design of your choice.</div><br>
-                <div class="abt-content">
+                <div>
+                    <h2 class="our-vision">Reflective Sun Control Film - One Way Tint:</h2>
+                    <div class="abt-content">
                         Sun control Film while economical than its conventional counterpart is available in different shades and in a range of light transmission. These benefits make Energy Saving Sun control Window Films an ideal option to enhance safety and aesthetics in Residential & Commercial projects. It has range of films catering to different requirements and segments which are widely used for Residential purpose, Corporate Offices, Banks, ATM Centers, Malls, Hotels, Hospitals, Airports, Showrooms, IT & BPO Companies, Food Industry, Pharma Industry etc
                 </div>
                 <div>
@@ -114,10 +132,6 @@
                         <li>Window Film Colour</li>
                     </ul>
                 </div>
-                <br>
-                <br>
-                <div>
-                    <h2 class="our-vision">Reflective Sun Control Film - One Way Tint:</h2>
                     <div class="abt-content">
                             Reflective Films are coated with a micro-thin,partially transparent layer of metal and have a mirror like finish. They prevent visibility from outside (area of greater light intensity) during the day and vice-versa during the night. Total solar energy rejection is on higher side. Self-adhesive. Reduces solar heat, glare and UV by over 80%.
                     </div><br>
@@ -140,16 +154,10 @@
                                     <img src="../image_folder/Desktop/SunControlFilms/b9cf6753-a51f-4e04-ad84-393b12f040dd.jpg" width="100%">
                                 </div>
                                 <div>
-                                    <img src="../image_folder/Desktop/SunControlFilms/complete-one-way-privacy-window-film-150cm-3m-mirror-mirrored-glass-silver.jpg" width="100%">
-                                </div>
-                                <div>
                                     <img src="../image_folder/Desktop/SunControlFilms/mirror-blue-privacy-one-way-pro-window-tinting-tint-film-51-76-100-152cm.jpg" width="100%">
                                 </div>
                                 <div>
                                     <img src="../image_folder/Desktop/SunControlFilms/mirror-bronze-privacy-one-way-pro-window-tinting-tint-film-51-76-100-152cm.jpg" width="100%">
-                                </div>
-                                <div>
-                                    <img src="../image_folder/Desktop/SunControlFilms/mirror-silver-privacy-one-way-pro-window-tinting-tint-film-solar-control-sticky-back-51-76-100-152cm.jpg" width="100%">
                                 </div>
                                 <div>
                                     <img src="../image_folder/Desktop/SunControlFilms/rollo-papel-polarizado-importado-05x3mts-tonos-accesorios-652521-MLA20786210899_062016-F.jpg" width="100%">
@@ -164,6 +172,69 @@
                         </div>
                     </div>
                 </div>
+                <br id="non-reflective-films"><br><br><br>
+                <div>
+                    <h2 class="our-vision">Non reflective Sun Control film:</h2>
+                    <div class="abt-content">
+                            Non reflective films were dyed in mainly bronze and grey tints and were available in various densities of colour from a 70% density which was very light, to a 5% density, which was the darkest.
+                            <br>
+                            These non-reflective films are very efficient in reducing glare (visible light) as well as ultra violet light. Their performance on heat reduction is generally poor. However when a potential client wants to cut glare and ultra violet, but still requires the heat from the sun, non-reflective film is utilized.
+
+                    </div>
+                    <br>
+                    <div>
+                        <ul style="padding-left: 20px;">
+                            <li>Limited for heat rejection and glare reduction.</li>
+                            <li>Non-Metalized layer in film giving a Clear View.</li>
+                            <li>Non-Fade - Scratch Resistant.</li>
+                            <li>Prevents UV light for skin conditions and fading of fabrics etc.</li>
+                            <li>Internal Application</li>
+                            <li>Non Reflective Films are normal tinted films which primarily cuts the heat.</li>
+                        </ul>
+                    </div>
+                    <br>
+                        <div class="abt-content">
+                                The life expectancy of a non-reflective film is very limited as it only consists of one dyed film, whereas other reflective and semi reflective films consist of a lamination of many films.
+                                <br>
+                                The use of non-reflective window film will eliminate the need for blinds, awnings and distasteful shades and reduce fading and still allow for perfect natural vision.
+                                <br>
+                                The very light non reflective films are also recommended for shop windows as it does not alter the colour of articles on display. Non reflective films also come in various thicknesses as some consumers require fade resistance, glare resistance as well as excellent safety protection. Windows can shatter at any moment, causing huge damage to property and injury to personnel. Non reflective safety film will hold the glass together and reduce these risks.
+                                <br>
+                                Non reflective window film, are available in 3 grades of tints. They are used mainly for aesthetic reason and to help control solar glare, they are of particular use where there is a need to control light levels and when a non-mirrored/reflective finish is not required.
+                                <br>
+                                The non-reflective window film, capable of providing great glare reduction which in turn makes it Ideal for most commercial or residential applications without substantially altering the external appearance of a building. Another added benefit to the film is its ability to filter out virtually all UV rays which is the main cause of fading furnishing and fabrics in the Office or home.
+                        </div><br>
+                        <div>
+                            <div class="">  
+                                <div class="slider one-time">
+                                    <div>
+                                        <img src="../image_folder/Desktop/SunControlFilms/mirror-blue-privacy-one-way-pro-window-tinting-tint-film-51-76-100-152cm.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/SunControlFilms/�_102.JPG" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/SunControlFilms/mirror-silver-privacy-one-way-pro-window-tinting-tint-film-solar-control-sticky-back-51-76-100-152cm.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/SunControlFilms/rollo-papel-polarizado-importado-05x3mts-tonos-accesorios-652521-MLA20786210899_062016-F.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/SunControlFilms/complete-one-way-privacy-window-film-150cm-3m-mirror-mirrored-glass-silver.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/SunControlFilms/rollo-papel-polarizado-importado-05x3mts-tonos-accesorios-652521-MLA20786210899_062016-F.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/SunControlFilms/Self-adhesive-Window-Glass-Film-One-Way-Mirror-Silver-Insulation-Stickers-font-b-60-400-b.jpg" width="100%">
+                                    </div>
+                                    <div>
+                                        <img src="../image_folder/Desktop/SunControlFilms/�_10.JPG" width="100%">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 
                 <!-- faq... -->
                 <!--Start Section-7-->

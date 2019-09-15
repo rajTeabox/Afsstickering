@@ -580,16 +580,16 @@ Modal*/
     margin-right: 5px;
 }
 .side-3 .socialIcons .fb{
-    background-image: url("../image_folder/Desktop/Facebook.svg");
+    background-image: url("../image_folder/Desktop/logos/458488_facebook-transparent-png.png");
 }
 .side-3 .socialIcons .insta{
-    background-image: url("../image_folder/Desktop/Insta.PNG");
+    background-image: url("../image_folder/Desktop/logos/instagram_PNG3.png");
 }
 .side-3 .socialIcons .twitter{
-    background-image: url("../image_folder/Desktop/Twitter.svg");
+    background-image: url("../image_folder/Desktop/logos/70093-icons-media-twitter-youtube-computer-social-logo.png");
 }
 .side-3 .socialIcons .youtube{
-    background-image: url("../image_folder/Desktop/Youtube.svg");
+    background-image: url("../image_folder/Desktop/logos/Youtube-logo-full-color.png");
 }
 .side-3 .social, .side-4 .addressheading{
     font-size: 18px;

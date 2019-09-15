@@ -239,7 +239,6 @@
     #mini-refs span {
         font-size: 10px;
         font-family: proximaNovaRegular;
-        color: #A2A2A2;
     }
     .section-2 .afs-button {
         border: 1px solid #000;
@@ -405,6 +404,15 @@
     #about-us-more{
         margin-top:60px;
         padding:50px 25px;
+    }
+    #about-us-more h2 {
+        color: #D93447;
+        font-family: proximaNovaBold;
+        font-size: 26px;
+    }
+    .ipad-overflow {
+        width: 750px !important;
+        display: -webkit-box;
     }
 }
 /*End Mobile CSS*/

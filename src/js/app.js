@@ -205,6 +205,192 @@ $(document).ready(function () {
       adaptiveHeight: true
     });
     
+    $("#sign-board").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#singages-3D").offset().top - 60
+     }, 500);
+    });
+
+    $("#signage1").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#signage-2d").offset().top - 60
+     }, 500);
+    });
+
+    $("#signage2").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#Clear-Acrylic").offset().top - 60
+     }, 500);
+    });
+
+    $("#Etched1").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#Etching-Signage").offset().top - 60
+     }, 500);
+    });
+
+    $("#signage4").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#Metal-Signage").offset().top - 60
+     }, 500);
+    });
+
+    $("#signage5").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#Roll-ups-standees").offset().top - 60
+     }, 500);
+    });
+
+    $("#signage6").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#Safety-signage").offset().top - 60
+     }, 500);
+    });
+
+    $("#signage7").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#Sun-board-signage").offset().top - 60
+     }, 500);
+    });
+
+    $("#signage-last").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#WPC-signage").offset().top - 60
+     }, 500);
+    });
+
+    $("#frosted1").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#Frosted-Cutting-Design").offset().top - 60
+     }, 500);
+    });
+
+    $("#frosted2").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#Custom-Frosted-Film").offset().top - 60
+     }, 500);
+    });
+
+    $("#frosted3").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#Printed-Frosted-Film").offset().top - 60
+     }, 500);
+    });
+
+    $("#frosted4").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#Decorative-Films").offset().top - 60
+     }, 500);
+    });
+
+    $("#sun1").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#reflective-films").offset().top - 60
+     }, 500);
+    });
+
+    $("#sun2").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#non-reflective-films").offset().top - 60
+     }, 500);
+    });
+
+    $("#vinyl1").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#vinyl-wall-graphics").offset().top - 60
+     }, 500);
+    });
+
+    $("#vinyl2").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#vinyl-cut-lettering").offset().top - 60
+     }, 500);
+    });
+
+    $("#vinyl3").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#One-Way-Vision-Film").offset().top - 60
+     }, 500);
+    });
+
+    $("#vinyl4").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#clear-printing").offset().top - 60
+     }, 500);
+    });
+
+    $("#wall1").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#office-wallpapers").offset().top - 60
+     }, 500);
+    });
+
+    $("#wall2").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#residential-wallpapers").offset().top - 60
+     }, 500);
+    });
+
+    $("#wall3").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#customized-wallpaper").offset().top - 60
+     }, 500);
+    });
+
+    $("#blind1").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#blind-types").offset().top - 60
+     }, 500);
+    });
+
+    $("#blind2").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#blind-types").offset().top - 60
+     }, 500);
+    });
+
+    $("#blind3").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#blind-types").offset().top - 60
+     }, 500);
+    });
+
+    $("#floor1").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#artificial-grass").offset().top - 60
+     }, 500);
+    });
+
+    $("#floor2").click(function(){
+      $('html, body').animate({
+        scrollTop: $("#vinyl-floor").offset().top - 60
+      }, 500);
+    });
+
+    $("#floor3").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#carpet-flooring").offset().top - 60
+     }, 500);
+    });
+
+    $("#floor4").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#wooden-flooring").offset().top - 60
+     }, 500);
+    });
+
+    $("#workStn1").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#office-work-station").offset().top - 60
+     }, 500);
+    });
+
+    $("#workStn2").click(function(){
+      $('html, body').animate({
+       scrollTop: $("#glass-partition").offset().top - 60
+     }, 500);
+    });
+
 });
 
 
