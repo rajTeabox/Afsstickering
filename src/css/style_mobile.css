@@ -27,7 +27,7 @@
         padding-right: 15px !important;
     }
     .section1 .line1 {
-        padding-top: 60px !important;
+        padding-top: 0px !important;
         padding-bottom: 10px !important;
         font-size: 18px !important;
         color: #FFFFFF;
@@ -37,15 +37,14 @@
     }
     .section1 .line2 {
         font-size: 36px !important;
-        padding-bottom: 50px !important;
-        margin: 5px 40px !important;
+        margin: 35px 40px !important;
     }
     .section1 #learn_more_btn {
         display: none !important;
     }
     .section1-main {
         position: relative;
-        bottom: 0px !important;
+        bottom: -30px !important;
         margin-left: -15px !important;
         margin-right: -15px !important;
     }
@@ -413,6 +412,9 @@
     .ipad-overflow {
         width: 750px !important;
         display: -webkit-box;
+    }
+    .Home_Logo {
+        width: 100% !important;
     }
 }
 /*End Mobile CSS*/

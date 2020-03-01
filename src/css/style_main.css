@@ -176,7 +176,7 @@
 }
 .section1-main{
     position: relative;
-    bottom: -20px;
+    bottom: -65px;
     margin-left: 0px !important;
     margin-right: 0px !important;
 }
@@ -709,3 +709,26 @@ li:hover{
 .ipad-overflow{
     display: -webkit-box;
 }
+
+/* chat btns */
+
+#chat-btns {
+    position: fixed;
+    z-index: 999;
+    right: 85px;
+    bottom: 20px;
+    z-index: 10;
+}
+#chat-btns .chat-btn {
+    width: 55px;
+    height: 55px;
+    margin-left: 10px;
+    vertical-align: bottom;
+    display: inline-block;
+    overflow: hidden;   
+}
+
+.Home_Logo {
+    width: 100%;
+}
+
